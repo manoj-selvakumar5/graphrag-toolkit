@@ -1,0 +1,7 @@
+{
+    "terminal.integrated.env.osx": {
+        "SSL_CERT_FILE": "/opt/homebrew/etc/ca-certificates/cert.pem",
+        "REQUESTS_CA_BUNDLE": "/opt/homebrew/etc/ca-certificates/cert.pem",
+        "CURL_CA_BUNDLE": "/opt/homebrew/etc/ca-certificates/cert.pem"
+    }
+}
