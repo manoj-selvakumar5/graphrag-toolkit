@@ -1,0 +1,252 @@
+{
+    "id_": "aws::bd6a6b1b:9b34:30f78f54",
+    "embedding": null,
+    "metadata": {
+        "url": "https://docs.aws.amazon.com/neptune-analytics/latest/userguide/what-is-neptune-analytics.html",
+        "source": "aws-neptune-docs",
+        "aws::graph::propositions": [
+            "Knowledge Graph Extraction",
+            "can load data from Neptune Database graph or snapshot into Neptune Analytics",
+            "can load graph data stored in Amazon S3",
+            "can create new Neptune Analytics graph and load data into it",
+            "Neptune Analytics Features",
+            "When to use Neptune Analytics and when to use Neptune Database",
+            "Javascript is disabled or is unavailable in the browser",
+            "To use the Amazon Web Services Documentation, Javascript must be enabled",
+            "Document Conventions"
+        ],
+        "aws::graph::topics": {
+            "topics": [
+                {
+                    "topicId": null,
+                    "chunkIds": [],
+                    "value": "Knowledge Graph Extraction",
+                    "entities": [
+                        {
+                            "entityId": null,
+                            "value": "Neptune Database",
+                            "classification": "Company"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Amazon S3",
+                            "classification": "Location"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Neptune Analytics",
+                            "classification": "Software"
+                        }
+                    ],
+                    "statements": [
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "can load data from Neptune Database graph or snapshot into Neptune Analytics",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Neptune Database",
+                                        "classification": "Company"
+                                    },
+                                    "predicate": {
+                                        "value": "CAN LOAD INTO"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "Neptune Analytics",
+                                        "classification": "Software"
+                                    },
+                                    "complement": null
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Neptune Database",
+                                        "classification": "Company"
+                                    },
+                                    "predicate": {
+                                        "value": "LOAD INTO"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "Neptune Analytics",
+                                        "classification": "Software"
+                                    },
+                                    "complement": null
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "can load graph data stored in Amazon S3",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Amazon S3",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "CAN LOAD INTO"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "Neptune Analytics",
+                                        "classification": "Software"
+                                    },
+                                    "complement": null
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Amazon S3",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "LOAD INTO"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "Neptune Analytics",
+                                        "classification": "Software"
+                                    },
+                                    "complement": null
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "can create new Neptune Analytics graph and load data into it",
+                            "details": [
+                                "Neptune Analytics CAN CREATE",
+                                "Neptune Analytics CAN LOAD INTO",
+                                "Neptune Analytics CREATE",
+                                "Neptune Analytics LOAD INTO"
+                            ],
+                            "facts": []
+                        }
+                    ]
+                },
+                {
+                    "topicId": null,
+                    "chunkIds": [],
+                    "value": "Neptune Analytics Features",
+                    "entities": [
+                        {
+                            "entityId": null,
+                            "value": "Neptune Analytics",
+                            "classification": "Software"
+                        }
+                    ],
+                    "statements": [
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "When to use Neptune Analytics and when to use Neptune Database",
+                            "details": [
+                                "Neptune Analytics WHEN TO USE",
+                                "Neptune Database WHEN TO USE"
+                            ],
+                            "facts": []
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Javascript is disabled or is unavailable in the browser",
+                            "details": [
+                                "Javascript DISABLED OR UNAVAILABLE"
+                            ],
+                            "facts": []
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "To use the Amazon Web Services Documentation, Javascript must be enabled",
+                            "details": [
+                                "Javascript MUST BE ENABLED",
+                                "Amazon Web Services Documentation REQUIRES JAVASCRIPT"
+                            ],
+                            "facts": []
+                        }
+                    ]
+                },
+                {
+                    "topicId": null,
+                    "chunkIds": [],
+                    "value": "Document Conventions",
+                    "entities": [
+                        {
+                            "entityId": null,
+                            "value": "Amazon Web Services Documentation",
+                            "classification": "Media"
+                        }
+                    ],
+                    "statements": []
+                }
+            ]
+        }
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {
+        "1": {
+            "node_id": "aws::bd6a6b1b:9b34",
+            "node_type": "4",
+            "metadata": {
+                "url": "https://docs.aws.amazon.com/neptune-analytics/latest/userguide/what-is-neptune-analytics.html",
+                "source": "aws-neptune-docs"
+            },
+            "hash": "d9cdff8f3e97413ea8d773fcddc87bff102ceb4eaad382a275426023a726d7bd",
+            "class_name": "RelatedNodeInfo"
+        },
+        "2": {
+            "node_id": "aws::bd6a6b1b:9b34:693e8f3f",
+            "node_type": "1",
+            "metadata": {
+                "url": "https://docs.aws.amazon.com/neptune-analytics/latest/userguide/what-is-neptune-analytics.html",
+                "source": "aws-neptune-docs"
+            },
+            "hash": "9ae1eb940f768c6e2f77eb93025e946e12231901a8520c26ea0c06c78eb140af",
+            "class_name": "RelatedNodeInfo"
+        },
+        "3": {
+            "node_id": "aws::bd6a6b1b:9b34:4d550e1c",
+            "node_type": "1",
+            "metadata": {
+                "url": "https://docs.aws.amazon.com/neptune-analytics/latest/userguide/what-is-neptune-analytics.html",
+                "source": "aws-neptune-docs"
+            },
+            "hash": "7a05e9743fce95b502b37c1f11d31a17874caf03e5cfacd5767c6b8b1aed73d1",
+            "class_name": "RelatedNodeInfo"
+        }
+    },
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text": "To perform intensive analysis, you can load\nthe data from a Neptune Database graph or snapshot into Neptune Analytics. You\ncan also load graph data that's stored in Amazon S3.\n\nYou can get started by [creating a new Neptune Analytics graph](./create-\ngraph-using-console.html) and loading data into it in a number of ways.\n\n###### Topics\n\n  * [Neptune Analytics Features](./neptune-analytics-features.html)\n\n  * [When to use Neptune Analytics and when to use Neptune Database](./neptune-analytics-vs-neptune-database.html)\n\n![Warning](https://d1ge0kk1l5kms0.cloudfront.net/images/G/01/webservices/console/warning.png)\n**Javascript is disabled or is unavailable in your browser.**\n\nTo use the Amazon Web Services Documentation, Javascript must be enabled.\nPlease refer to your browser's Help pages for instructions.\n\n[Document Conventions](/general/latest/gr/docconventions.html)\n\nFeatures\n\nDid this page help you? - Yes\n\nThanks for letting us know we're doing a good job!",
+    "mimetype": "text/plain",
+    "start_char_idx": 1045,
+    "end_char_idx": 2016,
+    "metadata_seperator": "\n",
+    "text_template": "[Excerpt from document]\n{metadata_str}\nExcerpt:\n-----\n{content}\n-----\n",
+    "class_name": "TextNode"
+}
