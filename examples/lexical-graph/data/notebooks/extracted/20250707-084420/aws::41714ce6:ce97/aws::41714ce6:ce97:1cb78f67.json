@@ -1,0 +1,76 @@
+{
+    "id_": "aws::41714ce6:ce97:1cb78f67",
+    "embedding": null,
+    "metadata": {
+        "page_label": "3",
+        "file_name": "New-InfoFlash.Sample.pdf",
+        "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+        "page_number": 3,
+        "total_pages": 4,
+        "aws::graph::propositions": [
+            "Semiconductor Industry and Geopolitics",
+            "Russia has some domestic chipmaking capacity but it is very limited in terms of both the level of advancement and capacity.",
+            "Many foreign, often American-produced chips are easily available for commercial purchase in Moscow.",
+            "The fact that every military in the world is trying to use commercial chips in their systems has been a standardization factor, but it has also presented some challenges.",
+            "Russia does not know whether the chips it is buying have been sabotaged in any way.",
+            "The United States is relying on chip fabs in the US or friendly countries, whereas Russia is relying almost exclusively on chips produced in unfriendly countries.",
+            "The European Union has approved $46 billion in subsidies for its own Chips Act, a copy of U.S. legislation, and member states like Germany have allocated billions more.",
+            "Semiconductor funding has become a national security issue."
+        ],
+        "aws::graph::topics": {
+            "topics": []
+        }
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {
+        "1": {
+            "node_id": "aws::41714ce6:ce97",
+            "node_type": "4",
+            "metadata": {
+                "page_label": "3",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 3,
+                "total_pages": 4
+            },
+            "hash": "7612720ef2b1cace66ad01522504bda9ff885bc14b3750d063686024a8aaa049",
+            "class_name": "RelatedNodeInfo"
+        },
+        "2": {
+            "node_id": "aws::41714ce6:ce97:022dde19",
+            "node_type": "1",
+            "metadata": {
+                "page_label": "3",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 3,
+                "total_pages": 4
+            },
+            "hash": "b8dcd0a845977b079c6519b2ff6e8223ef3fe305195f95ba033486b204f924cc",
+            "class_name": "RelatedNodeInfo"
+        },
+        "3": {
+            "node_id": "aws::41714ce6:ce97:723eb81e",
+            "node_type": "1",
+            "metadata": {
+                "page_label": "3",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 3,
+                "total_pages": 4
+            },
+            "hash": "a54f936eedbdd5d4454284315caf0b2ed2ea013ecfacd367de79ccd4de292269",
+            "class_name": "RelatedNodeInfo"
+        }
+    },
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text": "RUSSIA\nRussia has some domestic chipmaking capacity but it's very limited, both in terms of the level of\nadvancement and capacity. Even in Moscow, it\u2019s easy to find lots of foreign and often American\nproduced chips. Many of these chips are easy to buy commercially. The fact that every military in the\nworld is trying to use commercial chips in their systems has been a standardization factor, but it has\npresented some challenges too (Sheftalovich & Cerulus, 2022). Russia doesn\u2019t know whether the chips\nit is buying have been sabotaged in any way. Every country has that problem, but the US, for example,\nis relying on chip fabs in the US or friendly countries, whereas Russia is relying almost exclusively on\nchips produced in unfriendly countries (Chitkara, 2022).\nEU CHIPS ACT \nEven the European Union, in its own Chips Act, a copy of U.S. legislation, has approved $46 billion in\nsubsidies, and member states like Germany have allocated billions more. This makes semiconductor\nfunding a national security issue (European Commission, 2022).",
+    "mimetype": "text/plain",
+    "start_char_idx": 1851,
+    "end_char_idx": 2896,
+    "metadata_seperator": "\n",
+    "text_template": "[Excerpt from document]\n{metadata_str}\nExcerpt:\n-----\n{content}\n-----\n",
+    "class_name": "TextNode"
+}

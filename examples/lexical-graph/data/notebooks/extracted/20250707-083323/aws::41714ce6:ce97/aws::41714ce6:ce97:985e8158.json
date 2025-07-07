@@ -1,0 +1,334 @@
+{
+    "id_": "aws::41714ce6:ce97:985e8158",
+    "embedding": null,
+    "metadata": {
+        "page_label": "3",
+        "file_name": "New-InfoFlash.Sample.pdf",
+        "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+        "page_number": 3,
+        "total_pages": 4,
+        "aws::graph::propositions": [
+            "Semiconductor Funding and the EU Chips Act",
+            "legislation has approved $46 billion in subsidies",
+            "member states like Germany have allocated billions more",
+            "semiconductor funding is a national security issue for the European Commission",
+            "Kurt Sievers is the chief executive officer of NXP Semiconductors",
+            "NXP Semiconductors is a leading chips designer and maker founded in the Netherlands",
+            "the EU's intended investment into the semiconductor industry is not enough to reach its 2030 targets",
+            "the EU needs \u20ac500 billion investment in Europe to reach the 20 percent market share goal formulated in the EU Chips Act"
+        ],
+        "aws::graph::topics": {
+            "topics": [
+                {
+                    "topicId": null,
+                    "chunkIds": [],
+                    "value": "Semiconductor Funding and the EU Chips Act",
+                    "entities": [
+                        {
+                            "entityId": null,
+                            "value": "European Commission",
+                            "classification": "Organization"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Germany",
+                            "classification": "Location"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Kurt Sievers",
+                            "classification": "Person"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "NXP Semiconductors",
+                            "classification": "Company"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "the Netherlands",
+                            "classification": "Location"
+                        }
+                    ],
+                    "statements": [
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "legislation has approved $46 billion in subsidies",
+                            "details": [
+                                "legislation VALUE $46 billion",
+                                "legislation APPROVED subsidies",
+                                "legislation APPROVED subsidies"
+                            ],
+                            "facts": []
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "member states like Germany have allocated billions more",
+                            "details": [
+                                "member states LIKE Germany",
+                                "member states ALLOCATED more"
+                            ],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Germany",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "VALUE"
+                                    },
+                                    "object": null,
+                                    "complement": "billions"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Germany",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "ALLOCATED"
+                                    },
+                                    "object": null,
+                                    "complement": "more"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "semiconductor funding is a national security issue for the European Commission",
+                            "details": [
+                                "semiconductor funding ISSUE FOR European Commission",
+                                "semiconductor funding NATIONAL SECURITY",
+                                "semiconductor funding ISSUE FOR European Commission"
+                            ],
+                            "facts": []
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Kurt Sievers is the chief executive officer of NXP Semiconductors",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Kurt Sievers",
+                                        "classification": "Person"
+                                    },
+                                    "predicate": {
+                                        "value": "OCCUPATION"
+                                    },
+                                    "object": null,
+                                    "complement": "chief executive officer"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "NXP Semiconductors",
+                                        "classification": "Company"
+                                    },
+                                    "predicate": {
+                                        "value": "HAS CEO"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "Kurt Sievers",
+                                        "classification": "Person"
+                                    },
+                                    "complement": null
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Kurt Sievers",
+                                        "classification": "Person"
+                                    },
+                                    "predicate": {
+                                        "value": "WORKS FOR"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "NXP Semiconductors",
+                                        "classification": "Company"
+                                    },
+                                    "complement": null
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "NXP Semiconductors is a leading chips designer and maker founded in the Netherlands",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "NXP Semiconductors",
+                                        "classification": "Company"
+                                    },
+                                    "predicate": {
+                                        "value": "ACTIVITY"
+                                    },
+                                    "object": null,
+                                    "complement": "chips designer"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "NXP Semiconductors",
+                                        "classification": "Company"
+                                    },
+                                    "predicate": {
+                                        "value": "ACTIVITY"
+                                    },
+                                    "object": null,
+                                    "complement": "chips maker"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "NXP Semiconductors",
+                                        "classification": "Company"
+                                    },
+                                    "predicate": {
+                                        "value": "FOUNDED IN"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "the Netherlands",
+                                        "classification": "Location"
+                                    },
+                                    "complement": null
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "NXP Semiconductors",
+                                        "classification": "Company"
+                                    },
+                                    "predicate": {
+                                        "value": "DESCRIBED BY"
+                                    },
+                                    "object": null,
+                                    "complement": "leading"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "NXP Semiconductors",
+                                        "classification": "Company"
+                                    },
+                                    "predicate": {
+                                        "value": "FOUNDED IN"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "the Netherlands",
+                                        "classification": "Location"
+                                    },
+                                    "complement": null
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "the EU's intended investment into the semiconductor industry is not enough to reach its 2030 targets",
+                            "details": [
+                                "EU INTENDED INVESTMENT semiconductor industry",
+                                "EU INVESTMENT NOT ENOUGH FOR 2030 targets",
+                                "EU INVESTED IN semiconductor industry"
+                            ],
+                            "facts": []
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "the EU needs \u20ac500 billion investment in Europe to reach the 20 percent market share goal formulated in the EU Chips Act",
+                            "details": [
+                                "EU NEEDS INVESTMENT \u20ac500 billion",
+                                "EU INVESTMENT GOAL 20 percent market share",
+                                "EU Chips Act FORMULATED 20 percent market share goal",
+                                "EU NEEDS INVESTMENT IN Europe",
+                                "EU Chips Act RELATED TO semiconductor industry"
+                            ],
+                            "facts": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {
+        "1": {
+            "node_id": "aws::41714ce6:ce97",
+            "node_type": "4",
+            "metadata": {
+                "page_label": "3",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 3,
+                "total_pages": 4
+            },
+            "hash": "7612720ef2b1cace66ad01522504bda9ff885bc14b3750d063686024a8aaa049",
+            "class_name": "RelatedNodeInfo"
+        },
+        "2": {
+            "node_id": "aws::41714ce6:ce97:ad54862b",
+            "node_type": "1",
+            "metadata": {
+                "page_label": "3",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 3,
+                "total_pages": 4
+            },
+            "hash": "21110b6742cdb65770c418756be4c4598ca48b64d8f894487dc4b14e725c2c6f",
+            "class_name": "RelatedNodeInfo"
+        }
+    },
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text": "legislation, has approved $46 billion in\nsubsidies, and member states like Germany have allocated billions more. This makes semiconductor\nfunding a national security issue (European Commission, 2022).\nKurt Sievers, chief executive officer of NXP Semiconductors, a leading chips designer and maker\nfounded in the Netherlands, warned that the bloc's intended investment into the semiconductor\nindustry isn't enough to reach its 2030 targets (Fiedler, 2022). Indeed, Sievers argued that \"We have\ncalculated that we would need \u20ac500 billion investment in Europe to reach the 20 percent market\nshare goal formulated in the EU Chips Act\" (Fiedler, 2022).",
+    "mimetype": "text/plain",
+    "start_char_idx": 2696,
+    "end_char_idx": 3343,
+    "metadata_seperator": "\n",
+    "text_template": "[Excerpt from document]\n{metadata_str}\nExcerpt:\n-----\n{content}\n-----\n",
+    "class_name": "TextNode"
+}

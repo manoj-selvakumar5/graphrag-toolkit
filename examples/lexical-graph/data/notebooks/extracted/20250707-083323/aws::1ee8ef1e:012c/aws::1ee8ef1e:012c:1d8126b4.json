@@ -1,0 +1,662 @@
+{
+    "id_": "aws::1ee8ef1e:012c:1d8126b4",
+    "embedding": null,
+    "metadata": {
+        "page_label": "2",
+        "file_name": "New-InfoFlash.Sample.pdf",
+        "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+        "page_number": 2,
+        "total_pages": 4,
+        "aws::graph::propositions": [
+            "USA & CHINA Knowledge Graph",
+            "proposition: The United States relies on semiconductors for the performance of its major defense systems and platforms.",
+            "proposition: The erosion of U.S. capabilities in microelectronics directly threatens the United States' ability to defend itself and its allies.",
+            "proposition: The CHIPS Act ensures that the U.S. semiconductor supply chain is secure and does not rely on countries like China.",
+            "proposition: The CHIPS Act is a long-term plan to promote research and development in the U.S.",
+            "proposition: Foundries located in the U.S. may still rely on cheap parts from Chinese companies that are sponsored by the government.",
+            "proposition: The Commerce Department's Bureau of Industry and Security (BIS) implemented new restrictions in August that limit the ability of U.S. companies to export technologies used in the design and manufacturing of advanced semiconductors without prior approval.",
+            "proposition: The restrictions cover two specific types of semiconductors often used for military purposes."
+        ],
+        "aws::graph::topics": {
+            "topics": [
+                {
+                    "topicId": null,
+                    "chunkIds": [],
+                    "value": "Semiconductor Export Restrictions",
+                    "entities": [
+                        {
+                            "entityId": null,
+                            "value": "United States",
+                            "classification": "Location"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "China",
+                            "classification": "Location"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "CHIPS Act",
+                            "classification": "Concept"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Commerce Department's Bureau of Industry and Security",
+                            "classification": "Organization"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "U.S. companies",
+                            "classification": "Organization"
+                        }
+                    ],
+                    "statements": [
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The United States relies on semiconductors for the performance of its major defense systems and platforms.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "United States",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "RELIES ON"
+                                    },
+                                    "object": null,
+                                    "complement": "semiconductors"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "United States",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "FOR"
+                                    },
+                                    "object": null,
+                                    "complement": "major defense systems and platforms"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "United States",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "RELIES ON"
+                                    },
+                                    "object": null,
+                                    "complement": "semiconductors"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The erosion of U.S. capabilities in microelectronics directly threatens the United States' ability to defend itself and its allies.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "United States",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "CAPABILITIES IN"
+                                    },
+                                    "object": null,
+                                    "complement": "microelectronics"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "United States",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "ABILITY TO"
+                                    },
+                                    "object": null,
+                                    "complement": "defend itself and its allies"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "United States",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "THREATENS"
+                                    },
+                                    "object": null,
+                                    "complement": "ability to defend itself and its allies"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The CHIPS Act ensures that the U.S. semiconductor supply chain is secure and does not rely on countries like China.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "CHIPS Act",
+                                        "classification": "Concept"
+                                    },
+                                    "predicate": {
+                                        "value": "ENSURES"
+                                    },
+                                    "object": null,
+                                    "complement": "U.S. semiconductor supply chain is secure"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "CHIPS Act",
+                                        "classification": "Concept"
+                                    },
+                                    "predicate": {
+                                        "value": "ENSURES"
+                                    },
+                                    "object": null,
+                                    "complement": "U.S. semiconductor supply chain does not rely on countries like China"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "CHIPS Act",
+                                        "classification": "Concept"
+                                    },
+                                    "predicate": {
+                                        "value": "ENSURES"
+                                    },
+                                    "object": null,
+                                    "complement": "U.S. semiconductor supply chain"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The Commerce Department's Bureau of Industry and Security (BIS) implemented new restrictions in August that limit the ability of U.S. companies to export technologies used in the design and manufacturing of advanced semiconductors without prior approval.",
+                            "details": [
+                                "new restrictions LIMIT ability of U.S. companies to export technologies",
+                                "technologies USED IN design and manufacturing of advanced semiconductors",
+                                "new restrictions LIMIT U.S. companies"
+                            ],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Commerce Department's Bureau of Industry and Security",
+                                        "classification": "Organization"
+                                    },
+                                    "predicate": {
+                                        "value": "IMPLEMENTED"
+                                    },
+                                    "object": null,
+                                    "complement": "new restrictions"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Commerce Department's Bureau of Industry and Security",
+                                        "classification": "Organization"
+                                    },
+                                    "predicate": {
+                                        "value": "IMPLEMENTED"
+                                    },
+                                    "object": null,
+                                    "complement": "new restrictions"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The restrictions cover two specific types of semiconductors often used for military purposes.",
+                            "details": [
+                                "restrictions COVER two specific types of semiconductors",
+                                "semiconductors USED FOR military purposes"
+                            ],
+                            "facts": []
+                        }
+                    ]
+                },
+                {
+                    "topicId": null,
+                    "chunkIds": [],
+                    "value": "Semiconductor Manufacturing",
+                    "entities": [
+                        {
+                            "entityId": null,
+                            "value": "U.S. semiconductor supply chain",
+                            "classification": "Concept"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Foundries",
+                            "classification": "Organization"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Chinese companies",
+                            "classification": "Organization"
+                        }
+                    ],
+                    "statements": [
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Foundries located in the U.S. may still rely on cheap parts from Chinese companies that are sponsored by the government.",
+                            "details": [
+                                "cheap parts FROM Chinese companies"
+                            ],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Foundries",
+                                        "classification": "Organization"
+                                    },
+                                    "predicate": {
+                                        "value": "LOCATED IN"
+                                    },
+                                    "object": null,
+                                    "complement": "U.S."
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Foundries",
+                                        "classification": "Organization"
+                                    },
+                                    "predicate": {
+                                        "value": "RELY ON"
+                                    },
+                                    "object": null,
+                                    "complement": "cheap parts"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Chinese companies",
+                                        "classification": "Organization"
+                                    },
+                                    "predicate": {
+                                        "value": "SPONSORED BY"
+                                    },
+                                    "object": null,
+                                    "complement": "government"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Foundries",
+                                        "classification": "Organization"
+                                    },
+                                    "predicate": {
+                                        "value": "RELY ON"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "Chinese companies",
+                                        "classification": "Organization"
+                                    },
+                                    "complement": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "topicId": null,
+                    "chunkIds": [],
+                    "value": "Semiconductor Industry and National Security",
+                    "entities": [
+                        {
+                            "entityId": null,
+                            "value": "United States",
+                            "classification": "Location"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "allies",
+                            "classification": "Organization"
+                        }
+                    ],
+                    "statements": [
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The erosion of U.S. capabilities in microelectronics directly threatens the United States' ability to defend itself and its allies.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "United States",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "CAPABILITIES IN"
+                                    },
+                                    "object": null,
+                                    "complement": "microelectronics"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "United States",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "ABILITY TO"
+                                    },
+                                    "object": null,
+                                    "complement": "defend itself and its allies"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "United States",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "THREATENS"
+                                    },
+                                    "object": null,
+                                    "complement": "ability to defend itself and its allies"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "topicId": null,
+                    "chunkIds": [],
+                    "value": "Semiconductors and Microchips",
+                    "entities": [
+                        {
+                            "entityId": null,
+                            "value": "semiconductors",
+                            "classification": "Product"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "microelectronics",
+                            "classification": "Concept"
+                        }
+                    ],
+                    "statements": [
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The United States relies on semiconductors for the performance of its major defense systems and platforms.",
+                            "details": [
+                                "United States RELIES ON semiconductors"
+                            ],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "semiconductors",
+                                        "classification": "Product"
+                                    },
+                                    "predicate": {
+                                        "value": "FOR"
+                                    },
+                                    "object": null,
+                                    "complement": "performance of major defense systems and platforms"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The erosion of U.S. capabilities in microelectronics directly threatens the United States' ability to defend itself and its allies.",
+                            "details": [
+                                "United States CAPABILITIES IN microelectronics",
+                                "United States ABILITY TO defend itself and its allies",
+                                "United States THREATENS ability to defend itself and its allies"
+                            ],
+                            "facts": []
+                        }
+                    ]
+                },
+                {
+                    "topicId": null,
+                    "chunkIds": [],
+                    "value": "Chip Shortage and the CHIPS Plus Act",
+                    "entities": [
+                        {
+                            "entityId": null,
+                            "value": "CHIPS Act",
+                            "classification": "Concept"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "U.S. semiconductor supply chain",
+                            "classification": "Concept"
+                        }
+                    ],
+                    "statements": [
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The CHIPS Act ensures that the U.S. semiconductor supply chain is secure and does not rely on countries like China.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "CHIPS Act",
+                                        "classification": "Concept"
+                                    },
+                                    "predicate": {
+                                        "value": "ENSURES"
+                                    },
+                                    "object": null,
+                                    "complement": "U.S. semiconductor supply chain is secure"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "CHIPS Act",
+                                        "classification": "Concept"
+                                    },
+                                    "predicate": {
+                                        "value": "ENSURES"
+                                    },
+                                    "object": null,
+                                    "complement": "U.S. semiconductor supply chain does not rely on countries like China"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "CHIPS Act",
+                                        "classification": "Concept"
+                                    },
+                                    "predicate": {
+                                        "value": "ENSURES"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "U.S. semiconductor supply chain",
+                                        "classification": "Concept"
+                                    },
+                                    "complement": null
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The CHIPS Act is a long-term plan to promote research and development in the U.S.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "CHIPS Act",
+                                        "classification": "Concept"
+                                    },
+                                    "predicate": {
+                                        "value": "IS"
+                                    },
+                                    "object": null,
+                                    "complement": "long-term plan"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "CHIPS Act",
+                                        "classification": "Concept"
+                                    },
+                                    "predicate": {
+                                        "value": "PROMOTES"
+                                    },
+                                    "object": null,
+                                    "complement": "research and development"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "CHIPS Act",
+                                        "classification": "Concept"
+                                    },
+                                    "predicate": {
+                                        "value": "IN"
+                                    },
+                                    "object": null,
+                                    "complement": "U.S."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {
+        "1": {
+            "node_id": "aws::1ee8ef1e:012c",
+            "node_type": "4",
+            "metadata": {
+                "page_label": "2",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 2,
+                "total_pages": 4
+            },
+            "hash": "4b88e5135fb542543a3de71432085d851dd45463f3ffd7f7e653390e9adb68e1",
+            "class_name": "RelatedNodeInfo"
+        },
+        "2": {
+            "node_id": "aws::1ee8ef1e:012c:a5ba389e",
+            "node_type": "1",
+            "metadata": {
+                "page_label": "2",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 2,
+                "total_pages": 4
+            },
+            "hash": "562644c14958890133d72606efb6ae4479897e5293986270adf770b8926c0467",
+            "class_name": "RelatedNodeInfo"
+        },
+        "3": {
+            "node_id": "aws::1ee8ef1e:012c:8c9ecd52",
+            "node_type": "1",
+            "metadata": {
+                "page_label": "2",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 2,
+                "total_pages": 4
+            },
+            "hash": "5ff8fd67876dbcc8e2c19637d27a028fb72e7a9e2680335cfb0b24e76eb5ed1b",
+            "class_name": "RelatedNodeInfo"
+        }
+    },
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text": "USA & CHINA\nAll major U.S. defence systems and platforms rely on semiconductors for their performance.\nConsequently, the erosion of U.S. capabilities in microelectronics directly threatens the United States\u2019\nability to defend itself and its allies. Here\u2019s why CHIPS Act is important; it ensures that the US\nsemiconductor supply chain is secure and does not rely on countries like China. Additionally, the act\nis a long-term plan to promote research and development to the US (Zeiger, 2022). Foundries,\nlocated in the US may still rely on cheap parts from Chinese companies that are sponsored by the\ngovernment. However, the Commerce Department's Bureau of Industry and Security (BIS)\nimplemented new restrictions in August that limit the ability of U.S. companies to export\ntechnologies used in the design and manufacturing of advanced semiconductors without prior\napproval from the department. The restrictions cover two specific types of semiconductors often used\nfor military purposes.",
+    "mimetype": "text/plain",
+    "start_char_idx": 2443,
+    "end_char_idx": 3431,
+    "metadata_seperator": "\n",
+    "text_template": "[Excerpt from document]\n{metadata_str}\nExcerpt:\n-----\n{content}\n-----\n",
+    "class_name": "TextNode"
+}

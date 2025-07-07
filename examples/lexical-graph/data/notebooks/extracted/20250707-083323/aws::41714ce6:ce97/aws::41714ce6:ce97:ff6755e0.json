@@ -1,0 +1,524 @@
+{
+    "id_": "aws::41714ce6:ce97:ff6755e0",
+    "embedding": null,
+    "metadata": {
+        "page_label": "3",
+        "file_name": "New-InfoFlash.Sample.pdf",
+        "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+        "page_number": 3,
+        "total_pages": 4,
+        "aws::graph::propositions": [
+            "Militaries Confronting Semiconductors",
+            "militaries are confronting semiconductors increasingly frequently",
+            "access to the right types of semiconductors and more advanced chips is crucial for every aspect of the modern battlefield",
+            "UKRAINE",
+            "Ukraine's two leading suppliers of neon, Ingas and Cryoin, produce about half the world's supply of the key ingredient for making chips",
+            "Ukraine's two leading suppliers of neon stopped their operations as soon following the outbreak of the Russian invasion of Ukraine",
+            "the shutdown of Ukraine's two leading suppliers of neon threatens to raise prices and aggravate the semiconductor shortage",
+            "45 to 54 percent of the world's semiconductor-grade neon used to make chips comes from Ukraine's two leading suppliers, Ingas and Cryoin",
+            "companies elsewhere could initiate neon production, but it would take nine months to two years to increase it"
+        ],
+        "aws::graph::topics": {
+            "topics": [
+                {
+                    "topicId": null,
+                    "chunkIds": [],
+                    "value": "Militaries Confronting Semiconductors",
+                    "entities": [
+                        {
+                            "entityId": null,
+                            "value": "militaries",
+                            "classification": "Concept"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "semiconductors",
+                            "classification": "Product"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Ukraine",
+                            "classification": "Location"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Ingas",
+                            "classification": "Company"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Cryoin",
+                            "classification": "Company"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Russia",
+                            "classification": "Location"
+                        }
+                    ],
+                    "statements": [
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "militaries are confronting semiconductors increasingly frequently",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "militaries",
+                                        "classification": "Concept"
+                                    },
+                                    "predicate": {
+                                        "value": "CONFRONTING"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "semiconductors",
+                                        "classification": "Product"
+                                    },
+                                    "complement": null
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "militaries",
+                                        "classification": "Concept"
+                                    },
+                                    "predicate": {
+                                        "value": "CONFRONTING"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "semiconductors",
+                                        "classification": "Product"
+                                    },
+                                    "complement": null
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "access to the right types of semiconductors and more advanced chips is crucial for every aspect of the modern battlefield",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "semiconductors",
+                                        "classification": "Product"
+                                    },
+                                    "predicate": {
+                                        "value": "CRUCIAL FOR"
+                                    },
+                                    "object": null,
+                                    "complement": "modern battlefield"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "semiconductors",
+                                        "classification": "Product"
+                                    },
+                                    "predicate": {
+                                        "value": "CRUCIAL FOR"
+                                    },
+                                    "object": null,
+                                    "complement": "modern battlefield"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Ukraine's two leading suppliers of neon, Ingas and Cryoin, produce about half the world's supply of the key ingredient for making chips",
+                            "details": [
+                                "neon INGREDIENT FOR making chips"
+                            ],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Ukraine",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "SUPPLIER OF"
+                                    },
+                                    "object": null,
+                                    "complement": "neon"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Ingas",
+                                        "classification": "Company"
+                                    },
+                                    "predicate": {
+                                        "value": "SUPPLIER OF"
+                                    },
+                                    "object": null,
+                                    "complement": "neon"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Cryoin",
+                                        "classification": "Company"
+                                    },
+                                    "predicate": {
+                                        "value": "SUPPLIER OF"
+                                    },
+                                    "object": null,
+                                    "complement": "neon"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Ukraine",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "SUPPLIER OF"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "Ingas",
+                                        "classification": "Company"
+                                    },
+                                    "complement": null
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Ukraine",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "SUPPLIER OF"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "Cryoin",
+                                        "classification": "Company"
+                                    },
+                                    "complement": null
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Ingas",
+                                        "classification": "Company"
+                                    },
+                                    "predicate": {
+                                        "value": "SUPPLIER OF"
+                                    },
+                                    "object": null,
+                                    "complement": "neon"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Cryoin",
+                                        "classification": "Company"
+                                    },
+                                    "predicate": {
+                                        "value": "SUPPLIER OF"
+                                    },
+                                    "object": null,
+                                    "complement": "neon"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Ukraine's two leading suppliers of neon stopped their operations as soon following the outbreak of the Russian invasion of Ukraine",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Ingas",
+                                        "classification": "Company"
+                                    },
+                                    "predicate": {
+                                        "value": "STOPPED OPERATIONS"
+                                    },
+                                    "object": null,
+                                    "complement": "following Russian invasion"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Cryoin",
+                                        "classification": "Company"
+                                    },
+                                    "predicate": {
+                                        "value": "STOPPED OPERATIONS"
+                                    },
+                                    "object": null,
+                                    "complement": "following Russian invasion"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Russia",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "INVADED"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "Ukraine",
+                                        "classification": "Location"
+                                    },
+                                    "complement": null
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "the shutdown of Ukraine's two leading suppliers of neon threatens to raise prices and aggravate the semiconductor shortage",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Ingas",
+                                        "classification": "Company"
+                                    },
+                                    "predicate": {
+                                        "value": "SHUTDOWN THREATENS"
+                                    },
+                                    "object": null,
+                                    "complement": "raise prices"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Ingas",
+                                        "classification": "Company"
+                                    },
+                                    "predicate": {
+                                        "value": "SHUTDOWN THREATENS"
+                                    },
+                                    "object": null,
+                                    "complement": "aggravate semiconductor shortage"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Cryoin",
+                                        "classification": "Company"
+                                    },
+                                    "predicate": {
+                                        "value": "SHUTDOWN THREATENS"
+                                    },
+                                    "object": null,
+                                    "complement": "raise prices"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Cryoin",
+                                        "classification": "Company"
+                                    },
+                                    "predicate": {
+                                        "value": "SHUTDOWN THREATENS"
+                                    },
+                                    "object": null,
+                                    "complement": "aggravate semiconductor shortage"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Ingas",
+                                        "classification": "Company"
+                                    },
+                                    "predicate": {
+                                        "value": "SUPPLIER OF"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "semiconductors",
+                                        "classification": "Product"
+                                    },
+                                    "complement": null
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Cryoin",
+                                        "classification": "Company"
+                                    },
+                                    "predicate": {
+                                        "value": "SUPPLIER OF"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "semiconductors",
+                                        "classification": "Product"
+                                    },
+                                    "complement": null
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "45 to 54 percent of the world's semiconductor-grade neon used to make chips comes from Ukraine's two leading suppliers, Ingas and Cryoin",
+                            "details": [
+                                "neon PERCENTAGE OF WORLD SUPPLY 45 to 54 percent",
+                                "neon USED FOR making chips"
+                            ],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Ingas",
+                                        "classification": "Company"
+                                    },
+                                    "predicate": {
+                                        "value": "SUPPLIER OF"
+                                    },
+                                    "object": null,
+                                    "complement": "neon"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Cryoin",
+                                        "classification": "Company"
+                                    },
+                                    "predicate": {
+                                        "value": "SUPPLIER OF"
+                                    },
+                                    "object": null,
+                                    "complement": "neon"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "companies elsewhere could initiate neon production, but it would take nine months to two years to increase it",
+                            "details": [
+                                "companies COULD INITIATE neon production",
+                                "neon production INCREASE DURATION 9 months to 2 years",
+                                "companies COULD INITIATE neon production"
+                            ],
+                            "facts": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {
+        "1": {
+            "node_id": "aws::41714ce6:ce97",
+            "node_type": "4",
+            "metadata": {
+                "page_label": "3",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 3,
+                "total_pages": 4
+            },
+            "hash": "7612720ef2b1cace66ad01522504bda9ff885bc14b3750d063686024a8aaa049",
+            "class_name": "RelatedNodeInfo"
+        },
+        "2": {
+            "node_id": "aws::41714ce6:ce97:f5c4052e",
+            "node_type": "1",
+            "metadata": {
+                "page_label": "3",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 3,
+                "total_pages": 4
+            },
+            "hash": "87de955399ff47d1a3f78236c93026f057a3f36fa87b211b940a277259bfb776",
+            "class_name": "RelatedNodeInfo"
+        },
+        "3": {
+            "node_id": "aws::41714ce6:ce97:ad54862b",
+            "node_type": "1",
+            "metadata": {
+                "page_label": "3",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 3,
+                "total_pages": 4
+            },
+            "hash": "21110b6742cdb65770c418756be4c4598ca48b64d8f894487dc4b14e725c2c6f",
+            "class_name": "RelatedNodeInfo"
+        }
+    },
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text": "Militaries are confronting semiconductors increasingly\nfrequently, and their ability to access the right types of semiconductors and more advanced chips is\ncrucial for every aspect of the modern battlefield.\nUKRAINE\nUkraine's two leading suppliers of neon, which produce about half the world's supply of the key\ningredient for making chips, stopped their operations as soon following the outbreak of the Russian\ninvasion of Ukraine, threatening to raise prices and aggravate the semiconductor shortage (McCrea,\n2022). Some 45 to 54 percent of the world's semiconductor-grade neon used to make chips comes\nfrom two Ukrainian companies, Ingas and Cryoin (McCrea, 2022). Companies elsewhere could initiate\nneon production, but it would take nine months to two years to increase it, according to Richard\nBarnett, Chief Marketing Officer of Supplyframe, which provides market intelligence to companies\nacross the global electronics sectors (Alper, 2022).",
+    "mimetype": "text/plain",
+    "start_char_idx": 901,
+    "end_char_idx": 1850,
+    "metadata_seperator": "\n",
+    "text_template": "[Excerpt from document]\n{metadata_str}\nExcerpt:\n-----\n{content}\n-----\n",
+    "class_name": "TextNode"
+}

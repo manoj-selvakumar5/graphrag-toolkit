@@ -1,0 +1,78 @@
+{
+    "id_": "aws::41714ce6:ce97:022dde19",
+    "embedding": null,
+    "metadata": {
+        "page_label": "3",
+        "file_name": "New-InfoFlash.Sample.pdf",
+        "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+        "page_number": 3,
+        "total_pages": 4,
+        "aws::graph::propositions": [
+            "Militaries and Semiconductors",
+            "militaries are confronting semiconductors increasingly frequently",
+            "militaries' ability to access the right types of semiconductors and more advanced chips is crucial for every aspect of the modern battlefield",
+            "Ukraine's two leading suppliers of neon, Ingas and Cryoin, produce about half the world's supply of the key ingredient for making chips",
+            "Ingas and Cryoin stopped their operations as soon following the outbreak of the Russian invasion of Ukraine",
+            "the shutdown of Ingas and Cryoin threatens to raise prices and aggravate the semiconductor shortage",
+            "45 to 54 percent of the world's semiconductor-grade neon used to make chips comes from Ingas and Cryoin",
+            "it would take 9 months to 2 years for companies elsewhere to increase neon production",
+            "Russia has some domestic chipmaking capacity but it is very limited in terms of the level of advancement and capacity",
+            "many chips found in Moscow are foreign and often American produced"
+        ],
+        "aws::graph::topics": {
+            "topics": []
+        }
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {
+        "1": {
+            "node_id": "aws::41714ce6:ce97",
+            "node_type": "4",
+            "metadata": {
+                "page_label": "3",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 3,
+                "total_pages": 4
+            },
+            "hash": "7612720ef2b1cace66ad01522504bda9ff885bc14b3750d063686024a8aaa049",
+            "class_name": "RelatedNodeInfo"
+        },
+        "2": {
+            "node_id": "aws::41714ce6:ce97:6e3c033d",
+            "node_type": "1",
+            "metadata": {
+                "page_label": "3",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 3,
+                "total_pages": 4
+            },
+            "hash": "cc2f51c782aae16d1b19a831f09841774a6b2c672c4e6e1e97e73e227ccd1fee",
+            "class_name": "RelatedNodeInfo"
+        },
+        "3": {
+            "node_id": "aws::41714ce6:ce97:1cb78f67",
+            "node_type": "1",
+            "metadata": {
+                "page_label": "3",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 3,
+                "total_pages": 4
+            },
+            "hash": "5e52c46a84c052b8bf89fc3173375b00ae83e4275a326bbd8352a3600d949082",
+            "class_name": "RelatedNodeInfo"
+        }
+    },
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text": "Militaries are confronting semiconductors increasingly\nfrequently, and their ability to access the right types of semiconductors and more advanced chips is\ncrucial for every aspect of the modern battlefield.\nUKRAINE\nUkraine's two leading suppliers of neon, which produce about half the world's supply of the key\ningredient for making chips, stopped their operations as soon following the outbreak of the Russian\ninvasion of Ukraine, threatening to raise prices and aggravate the semiconductor shortage (McCrea,\n2022). Some 45 to 54 percent of the world's semiconductor-grade neon used to make chips comes\nfrom two Ukrainian companies, Ingas and Cryoin (McCrea, 2022). Companies elsewhere could initiate\nneon production, but it would take nine months to two years to increase it, according to Richard\nBarnett, Chief Marketing Officer of Supplyframe, which provides market intelligence to companies\nacross the global electronics sectors (Alper, 2022).\nRUSSIA\nRussia has some domestic chipmaking capacity but it's very limited, both in terms of the level of\nadvancement and capacity. Even in Moscow, it\u2019s easy to find lots of foreign and often American\nproduced chips.",
+    "mimetype": "text/plain",
+    "start_char_idx": 901,
+    "end_char_idx": 2066,
+    "metadata_seperator": "\n",
+    "text_template": "[Excerpt from document]\n{metadata_str}\nExcerpt:\n-----\n{content}\n-----\n",
+    "class_name": "TextNode"
+}

@@ -1,0 +1,66 @@
+{
+    "id_": "aws::1ee8ef1e:012c:28c8f554",
+    "embedding": null,
+    "metadata": {
+        "page_label": "2",
+        "file_name": "New-InfoFlash.Sample.pdf",
+        "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+        "page_number": 2,
+        "total_pages": 4,
+        "aws::graph::propositions": [
+            "Semiconductor Industry Knowledge Graph",
+            "act is a long-term plan to promote research and development to the US",
+            "foundries located in the US may still rely on cheap parts from Chinese companies",
+            "Chinese companies that are sponsored by the government",
+            "Commerce Department's Bureau of Industry and Security (BIS) implemented new restrictions in August",
+            "new restrictions limit the ability of U.S. companies to export technologies used in the design and manufacturing of advanced semiconductors",
+            "new restrictions require prior approval from the department",
+            "restrictions cover two specific types of semiconductors often used for military purposes",
+            "export rules apply broadly",
+            "China is expected to be among the countries facing the most significant impact",
+            "concerns about using US technology in Chinese military equipment"
+        ],
+        "aws::graph::topics": {
+            "topics": []
+        }
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {
+        "1": {
+            "node_id": "aws::1ee8ef1e:012c",
+            "node_type": "4",
+            "metadata": {
+                "page_label": "2",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 2,
+                "total_pages": 4
+            },
+            "hash": "4b88e5135fb542543a3de71432085d851dd45463f3ffd7f7e653390e9adb68e1",
+            "class_name": "RelatedNodeInfo"
+        },
+        "2": {
+            "node_id": "aws::1ee8ef1e:012c:66dc8558",
+            "node_type": "1",
+            "metadata": {
+                "page_label": "2",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 2,
+                "total_pages": 4
+            },
+            "hash": "2290a7e35e7d05feb56b132b782edb12aec139c59caa787f5820169beeb96633",
+            "class_name": "RelatedNodeInfo"
+        }
+    },
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text": "Additionally, the act\nis a long-term plan to promote research and development to the US (Zeiger, 2022). Foundries,\nlocated in the US may still rely on cheap parts from Chinese companies that are sponsored by the\ngovernment. However, the Commerce Department's Bureau of Industry and Security (BIS)\nimplemented new restrictions in August that limit the ability of U.S. companies to export\ntechnologies used in the design and manufacturing of advanced semiconductors without prior\napproval from the department. The restrictions cover two specific types of semiconductors often used\nfor military purposes. While the export rules apply broadly, China is expected to be among the\ncountries facing the most significant impact due to concerns about using US technology in Chinese\nmilitary equipment.",
+    "mimetype": "text/plain",
+    "start_char_idx": 2830,
+    "end_char_idx": 3621,
+    "metadata_seperator": "\n",
+    "text_template": "[Excerpt from document]\n{metadata_str}\nExcerpt:\n-----\n{content}\n-----\n",
+    "class_name": "TextNode"
+}

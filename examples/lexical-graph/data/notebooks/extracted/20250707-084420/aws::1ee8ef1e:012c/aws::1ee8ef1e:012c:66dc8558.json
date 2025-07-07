@@ -1,0 +1,80 @@
+{
+    "id_": "aws::1ee8ef1e:012c:66dc8558",
+    "embedding": null,
+    "metadata": {
+        "page_label": "2",
+        "file_name": "New-InfoFlash.Sample.pdf",
+        "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+        "page_number": 2,
+        "total_pages": 4,
+        "aws::graph::propositions": [
+            "Semiconductor Manufacturing Landscape",
+            "Taiwan manufactures 90 percent of the world's advanced microchips.",
+            "The world's dependence on Taiwan's chips has protected Taiwan from a potential invasion or trade sanctions from China.",
+            "The United States produces 10 percent of the world's semiconductors.",
+            "China produces 5 percent of the world's semiconductors.",
+            "South Korea and Japan produce the remaining semiconductors.",
+            "All major U.S. defense systems and platforms rely on semiconductors for their performance.",
+            "The erosion of U.S. capabilities in microelectronics directly threatens the United States' ability to defend itself and its allies.",
+            "The CHIPS Act ensures that the U.S. semiconductor supply chain is secure and does not rely on countries like China.",
+            "The CHIPS Act is a long-term plan to promote research and development in the U.S. semiconductor industry.",
+            "Foundries located in the U.S. may still rely on cheap parts from Chinese companies that are sponsored by the Chinese government.",
+            "The Commerce Department's Bureau of Industry and Security (BIS) implemented new restrictions in August that limit the ability of U.S. companies to sell certain semiconductor technologies to China."
+        ],
+        "aws::graph::topics": {
+            "topics": []
+        }
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {
+        "1": {
+            "node_id": "aws::1ee8ef1e:012c",
+            "node_type": "4",
+            "metadata": {
+                "page_label": "2",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 2,
+                "total_pages": 4
+            },
+            "hash": "4b88e5135fb542543a3de71432085d851dd45463f3ffd7f7e653390e9adb68e1",
+            "class_name": "RelatedNodeInfo"
+        },
+        "2": {
+            "node_id": "aws::1ee8ef1e:012c:6695c7b1",
+            "node_type": "1",
+            "metadata": {
+                "page_label": "2",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 2,
+                "total_pages": 4
+            },
+            "hash": "0c4b860ff38a00b6fa0f4bb474dbdf0cfb84c8e1bc006e5684bb3f2d2a26e84c",
+            "class_name": "RelatedNodeInfo"
+        },
+        "3": {
+            "node_id": "aws::1ee8ef1e:012c:28c8f554",
+            "node_type": "1",
+            "metadata": {
+                "page_label": "2",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 2,
+                "total_pages": 4
+            },
+            "hash": "bceb899615a89a8c3f4227dc636ff3c0360269352837bcee2f53c245bc81a40f",
+            "class_name": "RelatedNodeInfo"
+        }
+    },
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text": "This is compared to the US at 10 percent and China\nat 5 percent, whereas South Korea and Japan produce the rest. \nMore importantly, Taiwan manufactures 90 percent of the world\u2019s advanced microchips. However,\nthe world\u2019s dependence on Taiwan\u2019s chips has protected itself from a potential invasion or trade\nsanctions from China (Zeiger, 2022).\nUSA & CHINA\nAll major U.S. defence systems and platforms rely on semiconductors for their performance.\nConsequently, the erosion of U.S. capabilities in microelectronics directly threatens the United States\u2019\nability to defend itself and its allies. Here\u2019s why CHIPS Act is important; it ensures that the US\nsemiconductor supply chain is secure and does not rely on countries like China. Additionally, the act\nis a long-term plan to promote research and development to the US (Zeiger, 2022). Foundries,\nlocated in the US may still rely on cheap parts from Chinese companies that are sponsored by the\ngovernment. However, the Commerce Department's Bureau of Industry and Security (BIS)\nimplemented new restrictions in August that limit the ability of U.S.",
+    "mimetype": "text/plain",
+    "start_char_idx": 2101,
+    "end_char_idx": 3196,
+    "metadata_seperator": "\n",
+    "text_template": "[Excerpt from document]\n{metadata_str}\nExcerpt:\n-----\n{content}\n-----\n",
+    "class_name": "TextNode"
+}

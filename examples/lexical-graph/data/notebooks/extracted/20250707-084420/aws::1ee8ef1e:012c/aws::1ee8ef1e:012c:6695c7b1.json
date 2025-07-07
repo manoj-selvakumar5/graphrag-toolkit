@@ -1,0 +1,77 @@
+{
+    "id_": "aws::1ee8ef1e:012c:6695c7b1",
+    "embedding": null,
+    "metadata": {
+        "page_label": "2",
+        "file_name": "New-InfoFlash.Sample.pdf",
+        "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+        "page_number": 2,
+        "total_pages": 4,
+        "aws::graph::propositions": [
+            "Semiconductor Incentives and Taiwan's Microchip Manufacturing Dominance",
+            "It amends legislation and appropriates funding for semiconductor incentives originally in the National Defence Authorization Act for 2021.",
+            "The legislation is based on eligibility requirements and prohibitions that companies should consider as they pursue incentive funding to expand domestic semiconductor manufacturing.",
+            "Analysts are concerned that the act does not address security issues, such as the Chinese government's heavy subsidies and state-sponsored cyber-espionage.",
+            "Taiwan is the world's largest microchip manufacturer, producing 65% of the microchips used globally.",
+            "The United States produces 10% of the world's microchips, and China produces 5%.",
+            "South Korea and Japan produce the remaining microchips.",
+            "Taiwan manufactures 90% of the world's advanced microchips.",
+            "The world's dependence on Taiwan's microchips has protected Taiwan from potential invasion or trade sanctions from China."
+        ],
+        "aws::graph::topics": {
+            "topics": []
+        }
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {
+        "1": {
+            "node_id": "aws::1ee8ef1e:012c",
+            "node_type": "4",
+            "metadata": {
+                "page_label": "2",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 2,
+                "total_pages": 4
+            },
+            "hash": "4b88e5135fb542543a3de71432085d851dd45463f3ffd7f7e653390e9adb68e1",
+            "class_name": "RelatedNodeInfo"
+        },
+        "2": {
+            "node_id": "aws::1ee8ef1e:012c:abf75403",
+            "node_type": "1",
+            "metadata": {
+                "page_label": "2",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 2,
+                "total_pages": 4
+            },
+            "hash": "050d96ccc7ce1f0f5c3d129f42a666269143789b8e61f25e12d7ba0a26fae922",
+            "class_name": "RelatedNodeInfo"
+        },
+        "3": {
+            "node_id": "aws::1ee8ef1e:012c:66dc8558",
+            "node_type": "1",
+            "metadata": {
+                "page_label": "2",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 2,
+                "total_pages": 4
+            },
+            "hash": "2290a7e35e7d05feb56b132b782edb12aec139c59caa787f5820169beeb96633",
+            "class_name": "RelatedNodeInfo"
+        }
+    },
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text": "It amends legislation and appropriates funding for semiconductor\nincentives originally in the National Defence Authorization Act (\u201cNDAA\u201d) for 2021 (117th Congress\nPublic Law, 2022). It is based on eligibility requirements and prohibitions that companies should take\ninto account as they consider pursuing incentive funding to expand domestic manufacturing in the\nsemiconductor supply chain (King&Spalding, 2022). Analysts are concerned that the act does not\naddress security issues, such as the Chinese government\u2019s heavy subsidies as well as state-sponsored\ncyber-espionage (Lohman, 2022).\nTAIWAN'S SUPREMACY IN MANUFACTURING MICROCHIPS\nTaiwan is the world\u2019s largest microchip manufacturer, manufacturing 65 percent of the microchips\nused in everything from smartphones to missiles. This is compared to the US at 10 percent and China\nat 5 percent, whereas South Korea and Japan produce the rest. \nMore importantly, Taiwan manufactures 90 percent of the world\u2019s advanced microchips. However,\nthe world\u2019s dependence on Taiwan\u2019s chips has protected itself from a potential invasion or trade\nsanctions from China (Zeiger, 2022).",
+    "mimetype": "text/plain",
+    "start_char_idx": 1317,
+    "end_char_idx": 2442,
+    "metadata_seperator": "\n",
+    "text_template": "[Excerpt from document]\n{metadata_str}\nExcerpt:\n-----\n{content}\n-----\n",
+    "class_name": "TextNode"
+}

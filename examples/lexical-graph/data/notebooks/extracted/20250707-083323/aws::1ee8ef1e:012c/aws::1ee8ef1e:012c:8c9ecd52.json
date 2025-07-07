@@ -1,0 +1,159 @@
+{
+    "id_": "aws::1ee8ef1e:012c:8c9ecd52",
+    "embedding": null,
+    "metadata": {
+        "page_label": "2",
+        "file_name": "New-InfoFlash.Sample.pdf",
+        "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+        "page_number": 2,
+        "total_pages": 4,
+        "aws::graph::propositions": [
+            "Semiconductor Export Restrictions",
+            "The restrictions cover two specific types of semiconductors.",
+            "The two specific types of semiconductors are often used for military purposes.",
+            "The export rules apply broadly.",
+            "China is expected to be among the countries facing the most significant impact.",
+            "The concern is about using US technology in Chinese military equipment."
+        ],
+        "aws::graph::topics": {
+            "topics": [
+                {
+                    "topicId": null,
+                    "chunkIds": [],
+                    "value": "Semiconductor Export Restrictions",
+                    "entities": [
+                        {
+                            "entityId": null,
+                            "value": "China",
+                            "classification": "Location"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "US",
+                            "classification": "Location"
+                        }
+                    ],
+                    "statements": [
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The restrictions cover two specific types of semiconductors.",
+                            "details": [
+                                "restrictions COVER two specific types of semiconductors"
+                            ],
+                            "facts": []
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The two specific types of semiconductors are often used for military purposes.",
+                            "details": [
+                                "two specific types of semiconductors USED FOR military purposes"
+                            ],
+                            "facts": []
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The export rules apply broadly.",
+                            "details": [
+                                "export rules APPLY TO broad scope"
+                            ],
+                            "facts": []
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "China is expected to be among the countries facing the most significant impact.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "China",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "EXPECTED TO FACE"
+                                    },
+                                    "object": null,
+                                    "complement": "significant impact"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The concern is about using US technology in Chinese military equipment.",
+                            "details": [
+                                "US technology USED IN Chinese military equipment"
+                            ],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "China",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "USES"
+                                    },
+                                    "object": null,
+                                    "complement": "US technology in military equipment"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {
+        "1": {
+            "node_id": "aws::1ee8ef1e:012c",
+            "node_type": "4",
+            "metadata": {
+                "page_label": "2",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 2,
+                "total_pages": 4
+            },
+            "hash": "4b88e5135fb542543a3de71432085d851dd45463f3ffd7f7e653390e9adb68e1",
+            "class_name": "RelatedNodeInfo"
+        },
+        "2": {
+            "node_id": "aws::1ee8ef1e:012c:1d8126b4",
+            "node_type": "1",
+            "metadata": {
+                "page_label": "2",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 2,
+                "total_pages": 4
+            },
+            "hash": "e1b5970cfa34620bf5e587cfda1a9719e6b375a22bc20a0a3392032902180d92",
+            "class_name": "RelatedNodeInfo"
+        }
+    },
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text": "The restrictions cover two specific types of semiconductors often used\nfor military purposes. While the export rules apply broadly, China is expected to be among the\ncountries facing the most significant impact due to concerns about using US technology in Chinese\nmilitary equipment.",
+    "mimetype": "text/plain",
+    "start_char_idx": 3338,
+    "end_char_idx": 3621,
+    "metadata_seperator": "\n",
+    "text_template": "[Excerpt from document]\n{metadata_str}\nExcerpt:\n-----\n{content}\n-----\n",
+    "class_name": "TextNode"
+}

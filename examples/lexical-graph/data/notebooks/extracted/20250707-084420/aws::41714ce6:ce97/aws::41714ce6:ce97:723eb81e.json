@@ -1,0 +1,62 @@
+{
+    "id_": "aws::41714ce6:ce97:723eb81e",
+    "embedding": null,
+    "metadata": {
+        "page_label": "3",
+        "file_name": "New-InfoFlash.Sample.pdf",
+        "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+        "page_number": 3,
+        "total_pages": 4,
+        "aws::graph::propositions": [
+            "EU Chips Act",
+            "The European Union has approved $46 billion in subsidies for its own Chips Act, which is a copy of U.S. legislation.",
+            "The European Union considers semiconductor funding a national security issue.",
+            "NXP Semiconductors is a leading chips designer and maker founded in the Netherlands.",
+            "Kurt Sievers is the chief executive officer of NXP Semiconductors.",
+            "Kurt Sievers warned that the European Union's intended investment into the semiconductor industry is not enough to reach its 2030 targets.",
+            "Kurt Sievers argued that the European Union would need \u20ac500 billion investment to reach the 20 percent market share goal formulated in the EU Chips Act."
+        ],
+        "aws::graph::topics": {
+            "topics": []
+        }
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {
+        "1": {
+            "node_id": "aws::41714ce6:ce97",
+            "node_type": "4",
+            "metadata": {
+                "page_label": "3",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 3,
+                "total_pages": 4
+            },
+            "hash": "7612720ef2b1cace66ad01522504bda9ff885bc14b3750d063686024a8aaa049",
+            "class_name": "RelatedNodeInfo"
+        },
+        "2": {
+            "node_id": "aws::41714ce6:ce97:1cb78f67",
+            "node_type": "1",
+            "metadata": {
+                "page_label": "3",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 3,
+                "total_pages": 4
+            },
+            "hash": "5e52c46a84c052b8bf89fc3173375b00ae83e4275a326bbd8352a3600d949082",
+            "class_name": "RelatedNodeInfo"
+        }
+    },
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text": "EU CHIPS ACT \nEven the European Union, in its own Chips Act, a copy of U.S. legislation, has approved $46 billion in\nsubsidies, and member states like Germany have allocated billions more. This makes semiconductor\nfunding a national security issue (European Commission, 2022).\nKurt Sievers, chief executive officer of NXP Semiconductors, a leading chips designer and maker\nfounded in the Netherlands, warned that the bloc's intended investment into the semiconductor\nindustry isn't enough to reach its 2030 targets (Fiedler, 2022). Indeed, Sievers argued that \"We have\ncalculated that we would need \u20ac500 billion investment in Europe to reach the 20 percent market\nshare goal formulated in the EU Chips Act\" (Fiedler, 2022).",
+    "mimetype": "text/plain",
+    "start_char_idx": 2620,
+    "end_char_idx": 3343,
+    "metadata_seperator": "\n",
+    "text_template": "[Excerpt from document]\n{metadata_str}\nExcerpt:\n-----\n{content}\n-----\n",
+    "class_name": "TextNode"
+}

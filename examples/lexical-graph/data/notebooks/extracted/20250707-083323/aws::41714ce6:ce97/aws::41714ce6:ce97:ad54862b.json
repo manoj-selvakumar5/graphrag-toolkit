@@ -1,0 +1,443 @@
+{
+    "id_": "aws::41714ce6:ce97:ad54862b",
+    "embedding": null,
+    "metadata": {
+        "page_label": "3",
+        "file_name": "New-InfoFlash.Sample.pdf",
+        "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+        "page_number": 3,
+        "total_pages": 4,
+        "aws::graph::propositions": [
+            "Semiconductor Industry Knowledge Graph",
+            "Russia has domestic chipmaking capacity.",
+            "Russia's domestic chipmaking capacity is limited.",
+            "Russia's domestic chipmaking capacity is limited in terms of the level of advancement.",
+            "Russia's domestic chipmaking capacity is limited in terms of capacity.",
+            "Many foreign-produced chips are easy to find in Moscow.",
+            "Many American-produced chips are easy to find in Moscow.",
+            "Many of these chips are easy to buy commercially.",
+            "Every military in the world is trying to use commercial chips in their systems.",
+            "The use of commercial chips in military systems has been a standardization factor.",
+            "The use of commercial chips in military systems has presented some challenges.",
+            "Russia does not know whether the chips it is buying have been sabotaged.",
+            "Every country has the problem of not knowing whether their purchased chips have been sabotaged.",
+            "The US is relying on chip fabs in the US or friendly countries.",
+            "Russia is relying almost exclusively on chips produced in unfriendly countries.",
+            "The European Union has its own Chips Act, which is a copy of the U.S. Chips Act."
+        ],
+        "aws::graph::topics": {
+            "topics": [
+                {
+                    "topicId": null,
+                    "chunkIds": [],
+                    "value": "Semiconductor Industry in Russia and the EU",
+                    "entities": [
+                        {
+                            "entityId": null,
+                            "value": "Russia",
+                            "classification": "Location"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Moscow",
+                            "classification": "Location"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "United States",
+                            "classification": "Location"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "European Union",
+                            "classification": "Organization"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Chips Act",
+                            "classification": "Concept"
+                        }
+                    ],
+                    "statements": [
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Russia has domestic chipmaking capacity.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Russia",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "HAS"
+                                    },
+                                    "object": null,
+                                    "complement": "domestic chipmaking capacity"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Russia's domestic chipmaking capacity is limited.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Russia",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "HAS LIMITED"
+                                    },
+                                    "object": null,
+                                    "complement": "domestic chipmaking capacity"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Russia's domestic chipmaking capacity is limited in terms of the level of advancement.",
+                            "details": [
+                                "domestic chipmaking capacity DESCRIBED BY level of advancement"
+                            ],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Russia",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "HAS LIMITED"
+                                    },
+                                    "object": null,
+                                    "complement": "domestic chipmaking capacity"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Russia's domestic chipmaking capacity is limited in terms of capacity.",
+                            "details": [
+                                "domestic chipmaking capacity DESCRIBED BY capacity"
+                            ],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Russia",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "HAS LIMITED"
+                                    },
+                                    "object": null,
+                                    "complement": "domestic chipmaking capacity"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Many foreign-produced chips are easy to find in Moscow.",
+                            "details": [
+                                "foreign-produced chips AVAILABLE IN Moscow"
+                            ],
+                            "facts": []
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Many American-produced chips are easy to find in Moscow.",
+                            "details": [
+                                "American-produced chips AVAILABLE IN Moscow"
+                            ],
+                            "facts": []
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Many of these chips are easy to buy commercially.",
+                            "details": [
+                                "foreign-produced chips COMMERCIALLY AVAILABLE",
+                                "American-produced chips COMMERCIALLY AVAILABLE"
+                            ],
+                            "facts": []
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The European Union has its own Chips Act, which is a copy of the U.S. Chips Act.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "European Union",
+                                        "classification": "Organization"
+                                    },
+                                    "predicate": {
+                                        "value": "HAS"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "Chips Act",
+                                        "classification": "Concept"
+                                    },
+                                    "complement": null
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Chips Act",
+                                        "classification": "Concept"
+                                    },
+                                    "predicate": {
+                                        "value": "COPY OF"
+                                    },
+                                    "object": null,
+                                    "complement": "U.S. Chips Act"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "topicId": null,
+                    "chunkIds": [],
+                    "value": "Militaries Confronting Semiconductors",
+                    "entities": [
+                        {
+                            "entityId": null,
+                            "value": "military",
+                            "classification": "Organization"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "commercial chips",
+                            "classification": "Product"
+                        }
+                    ],
+                    "statements": [
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Every military in the world is trying to use commercial chips in their systems.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "military",
+                                        "classification": "Organization"
+                                    },
+                                    "predicate": {
+                                        "value": "USES"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "commercial chips",
+                                        "classification": "Product"
+                                    },
+                                    "complement": null
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The use of commercial chips in military systems has been a standardization factor.",
+                            "details": [
+                                "use of commercial chips in military systems STANDARDIZATION FACTOR"
+                            ],
+                            "facts": []
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The use of commercial chips in military systems has presented some challenges.",
+                            "details": [
+                                "use of commercial chips in military systems PRESENTED CHALLENGES"
+                            ],
+                            "facts": []
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Russia does not know whether the chips it is buying have been sabotaged.",
+                            "details": [
+                                "Russia UNCERTAIN ABOUT sabotage of purchased chips"
+                            ],
+                            "facts": []
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Every country has the problem of not knowing whether their purchased chips have been sabotaged.",
+                            "details": [
+                                "country UNCERTAIN ABOUT sabotage of purchased chips"
+                            ],
+                            "facts": []
+                        }
+                    ]
+                },
+                {
+                    "topicId": null,
+                    "chunkIds": [],
+                    "value": "Chip War",
+                    "entities": [
+                        {
+                            "entityId": null,
+                            "value": "United States",
+                            "classification": "Location"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Russia",
+                            "classification": "Location"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "unfriendly countries",
+                            "classification": "Location"
+                        }
+                    ],
+                    "statements": [
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The US is relying on chip fabs in the US or friendly countries.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "United States",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "RELIES ON"
+                                    },
+                                    "object": null,
+                                    "complement": "chip fabs in US or friendly countries"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Russia is relying almost exclusively on chips produced in unfriendly countries.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Russia",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "RELIES ON"
+                                    },
+                                    "object": null,
+                                    "complement": "chips produced in unfriendly countries"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {
+        "1": {
+            "node_id": "aws::41714ce6:ce97",
+            "node_type": "4",
+            "metadata": {
+                "page_label": "3",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 3,
+                "total_pages": 4
+            },
+            "hash": "7612720ef2b1cace66ad01522504bda9ff885bc14b3750d063686024a8aaa049",
+            "class_name": "RelatedNodeInfo"
+        },
+        "2": {
+            "node_id": "aws::41714ce6:ce97:ff6755e0",
+            "node_type": "1",
+            "metadata": {
+                "page_label": "3",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 3,
+                "total_pages": 4
+            },
+            "hash": "2104dd90a69193aecdc3b46760efd22bfcc3caa3c0cafb60862a2c8b2d983d4f",
+            "class_name": "RelatedNodeInfo"
+        },
+        "3": {
+            "node_id": "aws::41714ce6:ce97:985e8158",
+            "node_type": "1",
+            "metadata": {
+                "page_label": "3",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 3,
+                "total_pages": 4
+            },
+            "hash": "b35d24f63bfddcbd65bb2a10b4bedf6401168b139abc3a7332ea368781fa4e3c",
+            "class_name": "RelatedNodeInfo"
+        }
+    },
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text": "RUSSIA\nRussia has some domestic chipmaking capacity but it's very limited, both in terms of the level of\nadvancement and capacity. Even in Moscow, it\u2019s easy to find lots of foreign and often American\nproduced chips. Many of these chips are easy to buy commercially. The fact that every military in the\nworld is trying to use commercial chips in their systems has been a standardization factor, but it has\npresented some challenges too (Sheftalovich & Cerulus, 2022). Russia doesn\u2019t know whether the chips\nit is buying have been sabotaged in any way. Every country has that problem, but the US, for example,\nis relying on chip fabs in the US or friendly countries, whereas Russia is relying almost exclusively on\nchips produced in unfriendly countries (Chitkara, 2022).\nEU CHIPS ACT \nEven the European Union, in its own Chips Act, a copy of U.S.",
+    "mimetype": "text/plain",
+    "start_char_idx": 1851,
+    "end_char_idx": 2695,
+    "metadata_seperator": "\n",
+    "text_template": "[Excerpt from document]\n{metadata_str}\nExcerpt:\n-----\n{content}\n-----\n",
+    "class_name": "TextNode"
+}

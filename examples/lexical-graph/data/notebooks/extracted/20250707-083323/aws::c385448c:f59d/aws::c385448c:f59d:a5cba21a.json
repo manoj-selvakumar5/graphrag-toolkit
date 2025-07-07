@@ -1,0 +1,199 @@
+{
+    "id_": "aws::c385448c:f59d:a5cba21a",
+    "embedding": null,
+    "metadata": {
+        "page_label": "1",
+        "file_name": "New-InfoFlash.Sample.pdf",
+        "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+        "page_number": 1,
+        "total_pages": 4,
+        "aws::graph::propositions": [
+            "Why Chip Production is a National Security Issue",
+            "Chip production is a national security issue.",
+            "Finabel is the European Army Interoperability Centre.",
+            "Rossella Muzzeddu wrote the text.",
+            "James Edward Columbo edited the text.",
+            "The text was written in November 2022."
+        ],
+        "aws::graph::topics": {
+            "topics": [
+                {
+                    "topicId": null,
+                    "chunkIds": [],
+                    "value": "Chip Production as National Security Issue",
+                    "entities": [
+                        {
+                            "entityId": null,
+                            "value": "Chip production",
+                            "classification": "Concept"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "National security",
+                            "classification": "Concept"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Finabel",
+                            "classification": "Organization"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "European Army Interoperability Centre",
+                            "classification": "Organization"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Rossella Muzzeddu",
+                            "classification": "Person"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "James Edward Columbo",
+                            "classification": "Person"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "November 2022",
+                            "classification": "Event"
+                        }
+                    ],
+                    "statements": [
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Chip production is a national security issue.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Chip production",
+                                        "classification": "Concept"
+                                    },
+                                    "predicate": {
+                                        "value": "IS A"
+                                    },
+                                    "object": null,
+                                    "complement": "national security issue"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Finabel is the European Army Interoperability Centre.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Finabel",
+                                        "classification": "Organization"
+                                    },
+                                    "predicate": {
+                                        "value": "IS"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "European Army Interoperability Centre",
+                                        "classification": "Organization"
+                                    },
+                                    "complement": null
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Rossella Muzzeddu wrote the text.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Rossella Muzzeddu",
+                                        "classification": "Person"
+                                    },
+                                    "predicate": {
+                                        "value": "WROTE"
+                                    },
+                                    "object": null,
+                                    "complement": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "James Edward Columbo edited the text.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "James Edward Columbo",
+                                        "classification": "Person"
+                                    },
+                                    "predicate": {
+                                        "value": "EDITED"
+                                    },
+                                    "object": null,
+                                    "complement": "text"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The text was written in November 2022.",
+                            "details": [
+                                "text WRITTEN IN November 2022"
+                            ],
+                            "facts": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {
+        "1": {
+            "node_id": "aws::c385448c:f59d",
+            "node_type": "4",
+            "metadata": {
+                "page_label": "1",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 1,
+                "total_pages": 4
+            },
+            "hash": "9ffeb31b415fb57f4c7b235da13ed8ffe77fee8c4cefa3f032396044505b2191",
+            "class_name": "RelatedNodeInfo"
+        }
+    },
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text": "Why Chip Production is aNational Security Issue\nNOVEMBER 2022\nROSSELLA MUZZEDDU \nWRITTEN BY\nFINABEL - THE EUROPEAN ARMY INTEROPERABILITY CENTREINFO FLASHEuropean Army Interoperability CentreFinabel\nJAMES EDWARD\nCOLUMBO\nEDITTED BY",
+    "mimetype": "text/plain",
+    "start_char_idx": 0,
+    "end_char_idx": 229,
+    "metadata_seperator": "\n",
+    "text_template": "[Excerpt from document]\n{metadata_str}\nExcerpt:\n-----\n{content}\n-----\n",
+    "class_name": "TextNode"
+}

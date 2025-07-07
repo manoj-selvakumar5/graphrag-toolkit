@@ -1,0 +1,377 @@
+{
+    "id_": "aws::41714ce6:ce97:f5c4052e",
+    "embedding": null,
+    "metadata": {
+        "page_label": "3",
+        "file_name": "New-InfoFlash.Sample.pdf",
+        "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+        "page_number": 3,
+        "total_pages": 4,
+        "aws::graph::propositions": [
+            "Chip War: The Fight for the World's Most Critical Technology",
+            "Chris Miller is a professor at the Fletcher School of Law and Diplomacy of Tufts University.",
+            "Chris Miller wrote the book \"Chip War: The Fight for the World's Most Critical Technology\".",
+            "In the book, Chris Miller argues that the next era, including the rivalry between the US and China, will be all about computing power.",
+            "Chris Miller outlines the nature of the coming battle over semiconductors.",
+            "Chris Miller defines how the power to produce leading-edge chips fell into the hands of just five companies: three from the US, one from Japan and one from the Netherlands.",
+            "In an interview with \"Protocol\", Chris Miller argues that semiconductors are used to integrate new munitions and transfer information between them.",
+            "Chris Miller argues that advanced semiconductors are necessary at every stage of the process of developing new munitions."
+        ],
+        "aws::graph::topics": {
+            "topics": [
+                {
+                    "topicId": null,
+                    "chunkIds": [],
+                    "value": "Chip War",
+                    "entities": [
+                        {
+                            "entityId": null,
+                            "value": "Chris Miller",
+                            "classification": "Person"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Fletcher School of Law and Diplomacy",
+                            "classification": "Organization"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Tufts University",
+                            "classification": "Organization"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "\"Chip War: The Fight for the World's Most Critical Technology\"",
+                            "classification": "Creative Work"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "US",
+                            "classification": "Location"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "China",
+                            "classification": "Location"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Japan",
+                            "classification": "Location"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Netherlands",
+                            "classification": "Location"
+                        }
+                    ],
+                    "statements": [
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Chris Miller is a professor at the Fletcher School of Law and Diplomacy of Tufts University.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Chris Miller",
+                                        "classification": "Person"
+                                    },
+                                    "predicate": {
+                                        "value": "OCCUPATION"
+                                    },
+                                    "object": null,
+                                    "complement": "professor"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Chris Miller",
+                                        "classification": "Person"
+                                    },
+                                    "predicate": {
+                                        "value": "AFFILIATED WITH"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "Fletcher School of Law and Diplomacy",
+                                        "classification": "Organization"
+                                    },
+                                    "complement": null
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Chris Miller",
+                                        "classification": "Person"
+                                    },
+                                    "predicate": {
+                                        "value": "AFFILIATED WITH"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "Tufts University",
+                                        "classification": "Organization"
+                                    },
+                                    "complement": null
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Chris Miller wrote the book \"Chip War The Fight for the World's Most Critical Technology\".",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Chris Miller",
+                                        "classification": "Person"
+                                    },
+                                    "predicate": {
+                                        "value": "WROTE"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "\"Chip War: The Fight for the World's Most Critical Technology\"",
+                                        "classification": "Creative Work"
+                                    },
+                                    "complement": null
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "In the book, Chris Miller argues that the next era, including the rivalry between the US and China, will be all about computing power.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Chris Miller",
+                                        "classification": "Person"
+                                    },
+                                    "predicate": {
+                                        "value": "ARGUES"
+                                    },
+                                    "object": null,
+                                    "complement": "the next era will be about computing power"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "US",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "RIVAL OF"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "China",
+                                        "classification": "Location"
+                                    },
+                                    "complement": null
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Chris Miller outlines the nature of the coming battle over semiconductors.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Chris Miller",
+                                        "classification": "Person"
+                                    },
+                                    "predicate": {
+                                        "value": "OUTLINES"
+                                    },
+                                    "object": null,
+                                    "complement": "the battle over semiconductors"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Chris Miller defines how the power to produce leading-edge chips fell into the hands of just five companies three from the US, one from Japan and one from the Netherlands.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Chris Miller",
+                                        "classification": "Person"
+                                    },
+                                    "predicate": {
+                                        "value": "DEFINES"
+                                    },
+                                    "object": null,
+                                    "complement": "the power to produce leading-edge chips is held by 5 companies"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "US",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "HAS COMPANIES"
+                                    },
+                                    "object": null,
+                                    "complement": "3"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Japan",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "HAS COMPANY"
+                                    },
+                                    "object": null,
+                                    "complement": "1"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Netherlands",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "HAS COMPANY"
+                                    },
+                                    "object": null,
+                                    "complement": "1"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "In an interview with \"Protocol\", Chris Miller argues that semiconductors are used to integrate new munitions and transfer information between them.",
+                            "details": [
+                                "Semiconductors USED FOR integrating new munitions",
+                                "Semiconductors USED FOR transferring information"
+                            ],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Chris Miller",
+                                        "classification": "Person"
+                                    },
+                                    "predicate": {
+                                        "value": "ARGUES IN"
+                                    },
+                                    "object": null,
+                                    "complement": "\"Protocol\" interview"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Chris Miller argues that advanced semiconductors are necessary at every stage of the process of developing new munitions.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Chris Miller",
+                                        "classification": "Person"
+                                    },
+                                    "predicate": {
+                                        "value": "ARGUES"
+                                    },
+                                    "object": null,
+                                    "complement": "advanced semiconductors are necessary for developing new munitions"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {
+        "1": {
+            "node_id": "aws::41714ce6:ce97",
+            "node_type": "4",
+            "metadata": {
+                "page_label": "3",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 3,
+                "total_pages": 4
+            },
+            "hash": "7612720ef2b1cace66ad01522504bda9ff885bc14b3750d063686024a8aaa049",
+            "class_name": "RelatedNodeInfo"
+        },
+        "3": {
+            "node_id": "aws::41714ce6:ce97:ff6755e0",
+            "node_type": "1",
+            "metadata": {
+                "page_label": "3",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 3,
+                "total_pages": 4
+            },
+            "hash": "2104dd90a69193aecdc3b46760efd22bfcc3caa3c0cafb60862a2c8b2d983d4f",
+            "class_name": "RelatedNodeInfo"
+        }
+    },
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text": "02\nChris Miller, a professor at the Fletcher School of Law and Diplomacy of Tufts University wrote the\nbook \u201cChip War: The Fight for the World\u2019s Most Critical Technology,\u201d in which he argues that the next\nera, including the rivalry between the US and China, will be all about computing power (Miller, 2022).\nMiller outlines the nature of the coming battle over semiconductors, defining how the power to\nproduce leading-edge chips fell into the hands of just five companies: three from the US, one from\nJapan and one from the Netherlands (Chitkara, 2022).\nIn an interview with \u201cProtocol\u201d, Miller argues that whilst semiconductors are undoubtedly important\nin advances in specific types of munitions, they are also used to integrate new munitions and transfer\ninformation between them, essentially demonstrating that advanced semiconductors are necessary\nat every stage of the process (Chitkara, 2022).",
+    "mimetype": "text/plain",
+    "start_char_idx": 0,
+    "end_char_idx": 900,
+    "metadata_seperator": "\n",
+    "text_template": "[Excerpt from document]\n{metadata_str}\nExcerpt:\n-----\n{content}\n-----\n",
+    "class_name": "TextNode"
+}

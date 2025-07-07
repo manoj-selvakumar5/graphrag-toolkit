@@ -1,0 +1,455 @@
+{
+    "id_": "aws::1ee8ef1e:012c:a368e71a",
+    "embedding": null,
+    "metadata": {
+        "page_label": "2",
+        "file_name": "New-InfoFlash.Sample.pdf",
+        "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+        "page_number": 2,
+        "total_pages": 4,
+        "aws::graph::propositions": [
+            "Semiconductors and Microchips",
+            "Microchips are in cars, cell phones, and missiles.",
+            "Having the fastest and most powerful microchips is essential to maintaining a military advantage.",
+            "The production of microchips grows exponentially.",
+            "Moore's Law predicts that the number of transistors on a silicon chip would double roughly every two years.",
+            "Sixty years ago, four transistors could fit on a given chip.",
+            "Today, the number of transistors on a chip is closer to 11.8 billion.",
+            "There is a chip shortage due to strong demand and no supply."
+        ],
+        "aws::graph::topics": {
+            "topics": [
+                {
+                    "topicId": null,
+                    "chunkIds": [],
+                    "value": "Semiconductors and Microchips",
+                    "entities": [
+                        {
+                            "entityId": null,
+                            "value": "Microchips",
+                            "classification": "Product"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Cars",
+                            "classification": "Product"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Cell phones",
+                            "classification": "Product"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Missiles",
+                            "classification": "Product"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Military",
+                            "classification": "Organization"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Moore's Law",
+                            "classification": "Concept"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Silicon chip",
+                            "classification": "Product"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Transistors",
+                            "classification": "Product"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Chip shortage",
+                            "classification": "Event"
+                        }
+                    ],
+                    "statements": [
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Microchips are in cars, cell phones, and missiles.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Microchips",
+                                        "classification": "Product"
+                                    },
+                                    "predicate": {
+                                        "value": "USED IN"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "Cars",
+                                        "classification": "Product"
+                                    },
+                                    "complement": null
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Microchips",
+                                        "classification": "Product"
+                                    },
+                                    "predicate": {
+                                        "value": "USED IN"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "Cell phones",
+                                        "classification": "Product"
+                                    },
+                                    "complement": null
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Microchips",
+                                        "classification": "Product"
+                                    },
+                                    "predicate": {
+                                        "value": "USED IN"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "Missiles",
+                                        "classification": "Product"
+                                    },
+                                    "complement": null
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Having the fastest and most powerful microchips is essential to maintaining a military advantage.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Microchips",
+                                        "classification": "Product"
+                                    },
+                                    "predicate": {
+                                        "value": "QUALITY"
+                                    },
+                                    "object": null,
+                                    "complement": "Fastest"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Microchips",
+                                        "classification": "Product"
+                                    },
+                                    "predicate": {
+                                        "value": "QUALITY"
+                                    },
+                                    "object": null,
+                                    "complement": "Most powerful"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Military",
+                                        "classification": "Organization"
+                                    },
+                                    "predicate": {
+                                        "value": "REQUIRES"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "Microchips",
+                                        "classification": "Product"
+                                    },
+                                    "complement": null
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Microchips",
+                                        "classification": "Product"
+                                    },
+                                    "predicate": {
+                                        "value": "ESSENTIAL FOR"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "Military",
+                                        "classification": "Organization"
+                                    },
+                                    "complement": null
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The production of microchips grows exponentially.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Microchips",
+                                        "classification": "Product"
+                                    },
+                                    "predicate": {
+                                        "value": "PRODUCTION"
+                                    },
+                                    "object": null,
+                                    "complement": "Exponential growth"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Moore's Law predicts that the number of transistors on a silicon chip would double roughly every two years.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Moore's Law",
+                                        "classification": "Concept"
+                                    },
+                                    "predicate": {
+                                        "value": "PREDICTS"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "Transistors",
+                                        "classification": "Product"
+                                    },
+                                    "complement": null
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Transistors",
+                                        "classification": "Product"
+                                    },
+                                    "predicate": {
+                                        "value": "DOUBLE"
+                                    },
+                                    "object": null,
+                                    "complement": "Every two years"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Silicon chip",
+                                        "classification": "Product"
+                                    },
+                                    "predicate": {
+                                        "value": "CONTAINS"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "Transistors",
+                                        "classification": "Product"
+                                    },
+                                    "complement": null
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Sixty years ago, four transistors could fit on a given chip.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Transistors",
+                                        "classification": "Product"
+                                    },
+                                    "predicate": {
+                                        "value": "QUANTITY"
+                                    },
+                                    "object": null,
+                                    "complement": "4"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Silicon chip",
+                                        "classification": "Product"
+                                    },
+                                    "predicate": {
+                                        "value": "CONTAINED"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "Transistors",
+                                        "classification": "Product"
+                                    },
+                                    "complement": null
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Today, the number of transistors on a chip is closer to 11.8 billion.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Transistors",
+                                        "classification": "Product"
+                                    },
+                                    "predicate": {
+                                        "value": "QUANTITY"
+                                    },
+                                    "object": null,
+                                    "complement": "11.8 billion"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Silicon chip",
+                                        "classification": "Product"
+                                    },
+                                    "predicate": {
+                                        "value": "CONTAINED"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "Transistors",
+                                        "classification": "Product"
+                                    },
+                                    "complement": null
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "There is a chip shortage due to strong demand and no supply.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Chip shortage",
+                                        "classification": "Event"
+                                    },
+                                    "predicate": {
+                                        "value": "CAUSED BY"
+                                    },
+                                    "object": null,
+                                    "complement": "Strong demand"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Chip shortage",
+                                        "classification": "Event"
+                                    },
+                                    "predicate": {
+                                        "value": "CAUSED BY"
+                                    },
+                                    "object": null,
+                                    "complement": "No supply"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {
+        "1": {
+            "node_id": "aws::1ee8ef1e:012c",
+            "node_type": "4",
+            "metadata": {
+                "page_label": "2",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 2,
+                "total_pages": 4
+            },
+            "hash": "4b88e5135fb542543a3de71432085d851dd45463f3ffd7f7e653390e9adb68e1",
+            "class_name": "RelatedNodeInfo"
+        },
+        "3": {
+            "node_id": "aws::1ee8ef1e:012c:b778490e",
+            "node_type": "1",
+            "metadata": {
+                "page_label": "2",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 2,
+                "total_pages": 4
+            },
+            "hash": "76e79e6205f8fbbda755bc50157e85bd1f2ecedf165c87ec173939f2719d53ea",
+            "class_name": "RelatedNodeInfo"
+        }
+    },
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text": "01\nINTRODUCTION \nWhen we talk about \u201csemiconductors,\u201d we are talking about microchips. Microchips are in everything\nfrom cars to cell phones to missiles but having the fastest and most powerful microchips is essential\nto maintaining a military advantage (Zeiger, 2022). Nowadays the production of microchips grows\nexponentially and Moore, an electronics engineer who went on to run Intel predicted that the\nnumber of transistors on a silicon chip would double roughly every two years (Gianfagna, 2021). This\nprojection is now known as Moore\u2019s Law. Sixty years ago, four transistors could fit on a given chip,\nwhereas today the number is closer to 11.8 billion (Heffernan, 2022).\nHowever, this era is facing a chip shortage due to strong demand and no supply.",
+    "mimetype": "text/plain",
+    "start_char_idx": 0,
+    "end_char_idx": 758,
+    "metadata_seperator": "\n",
+    "text_template": "[Excerpt from document]\n{metadata_str}\nExcerpt:\n-----\n{content}\n-----\n",
+    "class_name": "TextNode"
+}

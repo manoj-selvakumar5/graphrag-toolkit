@@ -1,0 +1,455 @@
+{
+    "id_": "aws::7992b358:cadd:9aed87ca",
+    "embedding": null,
+    "metadata": {
+        "page_label": "4",
+        "file_name": "New-InfoFlash.Sample.pdf",
+        "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+        "page_number": 4,
+        "total_pages": 4,
+        "aws::graph::propositions": [
+            "Supply Chain Vulnerabilities",
+            "The pandemic has exposed supply chain vulnerabilities due to shifting geopolitics.",
+            "The Russian invasion of Ukraine has exposed supply chain vulnerabilities due to shifting geopolitics.",
+            "Increasing tensions between the U.S. and China have exposed supply chain vulnerabilities due to shifting geopolitics.",
+            "The Russia-Ukraine war is contributing to semiconductor supply chain issues and the chip shortage.",
+            "The most immediate risk is the supply of specific raw materials used in semiconductor manufacturing, such as neon and palladium.",
+            "The impacts of inflation and indirect supply-chain effects appear to be manageable in the near term.",
+            "The potential for longer-term impacts is yet to be determined and will be predicated on how events continue to unfold."
+        ],
+        "aws::graph::topics": {
+            "topics": [
+                {
+                    "topicId": null,
+                    "chunkIds": [],
+                    "value": "Supply Chain Vulnerabilities Exposed by Geopolitical Tensions",
+                    "entities": [
+                        {
+                            "entityId": null,
+                            "value": "pandemic",
+                            "classification": "Concept"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Russia",
+                            "classification": "Location"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Ukraine",
+                            "classification": "Location"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "U.S.",
+                            "classification": "Location"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "China",
+                            "classification": "Location"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Russia-Ukraine war",
+                            "classification": "Event"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "semiconductor",
+                            "classification": "Product"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "neon",
+                            "classification": "Product"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "palladium",
+                            "classification": "Product"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "inflation",
+                            "classification": "Concept"
+                        }
+                    ],
+                    "statements": [
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The pandemic has exposed supply chain vulnerabilities due to shifting geopolitics.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "pandemic",
+                                        "classification": "Concept"
+                                    },
+                                    "predicate": {
+                                        "value": "EXPOSED"
+                                    },
+                                    "object": null,
+                                    "complement": "supply chain vulnerabilities"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "pandemic",
+                                        "classification": "Concept"
+                                    },
+                                    "predicate": {
+                                        "value": "CAUSED BY"
+                                    },
+                                    "object": null,
+                                    "complement": "shifting geopolitics"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "pandemic",
+                                        "classification": "Concept"
+                                    },
+                                    "predicate": {
+                                        "value": "EXPOSED"
+                                    },
+                                    "object": null,
+                                    "complement": "supply chain vulnerabilities"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The Russian invasion of Ukraine has exposed supply chain vulnerabilities due to shifting geopolitics.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Russia",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "INVADED"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "Ukraine",
+                                        "classification": "Location"
+                                    },
+                                    "complement": null
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Russia-Ukraine war",
+                                        "classification": "Event"
+                                    },
+                                    "predicate": {
+                                        "value": "EXPOSED"
+                                    },
+                                    "object": null,
+                                    "complement": "supply chain vulnerabilities"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Russia-Ukraine war",
+                                        "classification": "Event"
+                                    },
+                                    "predicate": {
+                                        "value": "CAUSED BY"
+                                    },
+                                    "object": null,
+                                    "complement": "shifting geopolitics"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Russia",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "INVADED"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "Ukraine",
+                                        "classification": "Location"
+                                    },
+                                    "complement": null
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Russia-Ukraine war",
+                                        "classification": "Event"
+                                    },
+                                    "predicate": {
+                                        "value": "EXPOSED"
+                                    },
+                                    "object": null,
+                                    "complement": "supply chain vulnerabilities"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Increasing tensions between the U.S. and China have exposed supply chain vulnerabilities due to shifting geopolitics.",
+                            "details": [
+                                "U.S.-China tensions EXPOSED supply chain vulnerabilities",
+                                "U.S.-China tensions CAUSED BY shifting geopolitics",
+                                "U.S.-China tensions EXPOSED supply chain vulnerabilities"
+                            ],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "U.S.",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "HAS TENSIONS WITH"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "China",
+                                        "classification": "Location"
+                                    },
+                                    "complement": null
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "U.S.",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "HAS TENSIONS WITH"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "China",
+                                        "classification": "Location"
+                                    },
+                                    "complement": null
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The Russia-Ukraine war is contributing to semiconductor supply chain issues and the chip shortage.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Russia-Ukraine war",
+                                        "classification": "Event"
+                                    },
+                                    "predicate": {
+                                        "value": "CONTRIBUTING TO"
+                                    },
+                                    "object": null,
+                                    "complement": "semiconductor supply chain issues"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Russia-Ukraine war",
+                                        "classification": "Event"
+                                    },
+                                    "predicate": {
+                                        "value": "CONTRIBUTING TO"
+                                    },
+                                    "object": null,
+                                    "complement": "chip shortage"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Russia-Ukraine war",
+                                        "classification": "Event"
+                                    },
+                                    "predicate": {
+                                        "value": "CONTRIBUTING TO"
+                                    },
+                                    "object": null,
+                                    "complement": "semiconductor supply chain issues"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Russia-Ukraine war",
+                                        "classification": "Event"
+                                    },
+                                    "predicate": {
+                                        "value": "CONTRIBUTING TO"
+                                    },
+                                    "object": null,
+                                    "complement": "chip shortage"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The most immediate risk is the supply of specific raw materials used in semiconductor manufacturing, such as neon and palladium.",
+                            "details": [
+                                "semiconductor manufacturing USES RAW MATERIALS neon",
+                                "semiconductor manufacturing USES RAW MATERIALS palladium",
+                                "semiconductor manufacturing USES RAW MATERIALS neon",
+                                "semiconductor manufacturing USES RAW MATERIALS palladium"
+                            ],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "neon",
+                                        "classification": "Product"
+                                    },
+                                    "predicate": {
+                                        "value": "RISK TO"
+                                    },
+                                    "object": null,
+                                    "complement": "semiconductor supply"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "palladium",
+                                        "classification": "Product"
+                                    },
+                                    "predicate": {
+                                        "value": "RISK TO"
+                                    },
+                                    "object": null,
+                                    "complement": "semiconductor supply"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The impacts of inflation and indirect supply-chain effects appear to be manageable in the near term.",
+                            "details": [
+                                "supply chain effects IMPACT IS MANAGEABLE near term"
+                            ],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "inflation",
+                                        "classification": "Concept"
+                                    },
+                                    "predicate": {
+                                        "value": "IMPACT ON"
+                                    },
+                                    "object": null,
+                                    "complement": "supply chain"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "inflation",
+                                        "classification": "Concept"
+                                    },
+                                    "predicate": {
+                                        "value": "IMPACTS"
+                                    },
+                                    "object": null,
+                                    "complement": "supply chain"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The potential for longer-term impacts is yet to be determined and will be predicated on how events continue to unfold.",
+                            "details": [
+                                "longer-term impacts POTENTIAL FOR undetermined",
+                                "longer-term impacts DEPENDENT ON future events",
+                                "longer-term impacts DEPENDENT ON future events"
+                            ],
+                            "facts": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {
+        "1": {
+            "node_id": "aws::7992b358:cadd",
+            "node_type": "4",
+            "metadata": {
+                "page_label": "4",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 4,
+                "total_pages": 4
+            },
+            "hash": "f601c854543d9edb9c760f04cfda1398b4295f1fc5c04bc37d6d37df8f3556fa",
+            "class_name": "RelatedNodeInfo"
+        }
+    },
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text": "03\nCONCLUSION\nThe pandemic, the Russian invasion of Ukraine, and increasing tensions between the U.S and China\nhave exposed supply chain vulnerabilities due to shifting geopolitics (Zeiger, 2022).\nThe Russia-Ukraine war is contributing to the semiconductor supply chain issues and the chip\nshortage that has impacted the industry for the past two years. The most immediate risk is the supply\nof specific raw materials used in semiconductor manufacturing such as neon and palladium. Whilst\nthe impacts of inflation and indirect supply-chain effects appear to be manageable in the near term,\nthe potential for longer-term impacts is yet to be determined and will be predicated on how events\ncontinue to unfold (Clark & Jones, 2022).",
+    "mimetype": "text/plain",
+    "start_char_idx": 0,
+    "end_char_idx": 730,
+    "metadata_seperator": "\n",
+    "text_template": "[Excerpt from document]\n{metadata_str}\nExcerpt:\n-----\n{content}\n-----\n",
+    "class_name": "TextNode"
+}

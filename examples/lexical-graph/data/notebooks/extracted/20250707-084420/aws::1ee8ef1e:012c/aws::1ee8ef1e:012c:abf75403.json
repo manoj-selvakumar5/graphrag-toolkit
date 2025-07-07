@@ -1,0 +1,76 @@
+{
+    "id_": "aws::1ee8ef1e:012c:abf75403",
+    "embedding": null,
+    "metadata": {
+        "page_label": "2",
+        "file_name": "New-InfoFlash.Sample.pdf",
+        "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+        "page_number": 2,
+        "total_pages": 4,
+        "aws::graph::propositions": [
+            "Chip Shortage and the CHIPS Plus Act",
+            "The chip industry is facing a shortage due to strong demand and insufficient supply.",
+            "The chip shortage can be traced back to COVID-19 lockdowns in the second quarter of 2020, when demand for work-from-home technology increased exponentially.",
+            "Automakers found themselves competing for semiconductor capacities located in Asian foundries.",
+            "On August 9, 2022, US President Biden signed the CHIPS and Science Act of 2022, also known as the CHIPS Plus Act.",
+            "The CHIPS Plus Act provides substantial opportunities and financial incentives to manufacturers in the semiconductor supply chain.",
+            "The CHIPS Plus Act amends legislation and appropriates funding for semiconductor incentives originally in the National Defence Authorization Act for 2021.",
+            "The CHIPS Plus Act is based on eligibility requirements and prohibitions that companies should consider as they pursue incentive funding to expand domestic manufacturing in the semiconductor supply chain."
+        ],
+        "aws::graph::topics": {
+            "topics": []
+        }
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {
+        "1": {
+            "node_id": "aws::1ee8ef1e:012c",
+            "node_type": "4",
+            "metadata": {
+                "page_label": "2",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 2,
+                "total_pages": 4
+            },
+            "hash": "4b88e5135fb542543a3de71432085d851dd45463f3ffd7f7e653390e9adb68e1",
+            "class_name": "RelatedNodeInfo"
+        },
+        "2": {
+            "node_id": "aws::1ee8ef1e:012c:26cbef4f",
+            "node_type": "1",
+            "metadata": {
+                "page_label": "2",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 2,
+                "total_pages": 4
+            },
+            "hash": "9b373705712ff9bd8d44f443fc509a9f0073e59be72fbc7fda8fcc3f4e38684b",
+            "class_name": "RelatedNodeInfo"
+        },
+        "3": {
+            "node_id": "aws::1ee8ef1e:012c:6695c7b1",
+            "node_type": "1",
+            "metadata": {
+                "page_label": "2",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 2,
+                "total_pages": 4
+            },
+            "hash": "0c4b860ff38a00b6fa0f4bb474dbdf0cfb84c8e1bc006e5684bb3f2d2a26e84c",
+            "class_name": "RelatedNodeInfo"
+        }
+    },
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text": "However, this era is facing a chip shortage due to strong demand and no supply. This goes back to\nCOVID-19 lockdowns in the second quarter of 2020, when demand for work-from-home technology\nincreased exponentially and automakers found themselves competing for the semiconductor\ncapacities located in Asian foundries (J. P. Morgan, 2022). Furthermore, on the 9th August, 2022 US\nPresident Biden signed the CHIPS and Science Act of 2022 (the \u201cCHIPS Plus Act\u201d) (H. R. 4346 The\nCHIPS and Science Act of 2022). \nThe CHIPS Plus Act provides substantial opportunities and financial incentives to manufacturers in\nthe semiconductor supply chain. It amends legislation and appropriates funding for semiconductor\nincentives originally in the National Defence Authorization Act (\u201cNDAA\u201d) for 2021 (117th Congress\nPublic Law, 2022). It is based on eligibility requirements and prohibitions that companies should take\ninto account as they consider pursuing incentive funding to expand domestic manufacturing in the\nsemiconductor supply chain (King&Spalding, 2022).",
+    "mimetype": "text/plain",
+    "start_char_idx": 679,
+    "end_char_idx": 1729,
+    "metadata_seperator": "\n",
+    "text_template": "[Excerpt from document]\n{metadata_str}\nExcerpt:\n-----\n{content}\n-----\n",
+    "class_name": "TextNode"
+}

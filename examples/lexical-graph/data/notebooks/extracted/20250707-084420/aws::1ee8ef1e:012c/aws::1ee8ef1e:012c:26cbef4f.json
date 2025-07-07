@@ -1,0 +1,64 @@
+{
+    "id_": "aws::1ee8ef1e:012c:26cbef4f",
+    "embedding": null,
+    "metadata": {
+        "page_label": "2",
+        "file_name": "New-InfoFlash.Sample.pdf",
+        "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+        "page_number": 2,
+        "total_pages": 4,
+        "aws::graph::propositions": [
+            "Semiconductors and Microchips",
+            "Semiconductors refer to microchips.",
+            "Microchips are essential for maintaining military advantage.",
+            "Microchip production grows exponentially.",
+            "Moore's Law predicts the number of transistors on a silicon chip will double every two years.",
+            "In the past, four transistors could fit on a chip, but now the number is closer to 11.8 billion.",
+            "The current era is facing a chip shortage due to strong demand and limited supply.",
+            "The chip shortage is due to increased demand for work-from-home technology during COVID-19 lockdowns in 2020.",
+            "Automakers are competing for semiconductor capacities located in Asian foundries."
+        ],
+        "aws::graph::topics": {
+            "topics": []
+        }
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {
+        "1": {
+            "node_id": "aws::1ee8ef1e:012c",
+            "node_type": "4",
+            "metadata": {
+                "page_label": "2",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 2,
+                "total_pages": 4
+            },
+            "hash": "4b88e5135fb542543a3de71432085d851dd45463f3ffd7f7e653390e9adb68e1",
+            "class_name": "RelatedNodeInfo"
+        },
+        "3": {
+            "node_id": "aws::1ee8ef1e:012c:abf75403",
+            "node_type": "1",
+            "metadata": {
+                "page_label": "2",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 2,
+                "total_pages": 4
+            },
+            "hash": "050d96ccc7ce1f0f5c3d129f42a666269143789b8e61f25e12d7ba0a26fae922",
+            "class_name": "RelatedNodeInfo"
+        }
+    },
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text": "01\nINTRODUCTION \nWhen we talk about \u201csemiconductors,\u201d we are talking about microchips. Microchips are in everything\nfrom cars to cell phones to missiles but having the fastest and most powerful microchips is essential\nto maintaining a military advantage (Zeiger, 2022). Nowadays the production of microchips grows\nexponentially and Moore, an electronics engineer who went on to run Intel predicted that the\nnumber of transistors on a silicon chip would double roughly every two years (Gianfagna, 2021). This\nprojection is now known as Moore\u2019s Law. Sixty years ago, four transistors could fit on a given chip,\nwhereas today the number is closer to 11.8 billion (Heffernan, 2022).\nHowever, this era is facing a chip shortage due to strong demand and no supply. This goes back to\nCOVID-19 lockdowns in the second quarter of 2020, when demand for work-from-home technology\nincreased exponentially and automakers found themselves competing for the semiconductor\ncapacities located in Asian foundries (J. P. Morgan, 2022).",
+    "mimetype": "text/plain",
+    "start_char_idx": 0,
+    "end_char_idx": 1016,
+    "metadata_seperator": "\n",
+    "text_template": "[Excerpt from document]\n{metadata_str}\nExcerpt:\n-----\n{content}\n-----\n",
+    "class_name": "TextNode"
+}

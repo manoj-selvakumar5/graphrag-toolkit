@@ -1,0 +1,712 @@
+{
+    "id_": "aws::1ee8ef1e:012c:a5ba389e",
+    "embedding": null,
+    "metadata": {
+        "page_label": "2",
+        "file_name": "New-InfoFlash.Sample.pdf",
+        "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+        "page_number": 2,
+        "total_pages": 4,
+        "aws::graph::propositions": [
+            "Semiconductor Manufacturing Knowledge Graph",
+            "proposition: The CHIPS and Science Act includes eligibility requirements and prohibitions that companies should consider when pursuing incentive funding to expand domestic semiconductor manufacturing.",
+            "proposition: Analysts are concerned that the CHIPS and Science Act does not address security issues, such as the Chinese government's heavy subsidies and state-sponsored cyber-espionage.",
+            "proposition: Taiwan is the world's largest microchip manufacturer, producing 65% of the microchips used globally.",
+            "proposition: The United States produces 10% of the world's microchips, and China produces 5%.",
+            "proposition: South Korea and Japan produce the remaining microchips not manufactured in Taiwan, the United States, or China.",
+            "proposition: Taiwan manufactures 90% of the world's advanced microchips.",
+            "proposition: The world's dependence on Taiwan's microchip manufacturing has protected Taiwan from potential invasion or trade sanctions from China."
+        ],
+        "aws::graph::topics": {
+            "topics": [
+                {
+                    "topicId": null,
+                    "chunkIds": [],
+                    "value": "Semiconductor Manufacturing",
+                    "entities": [
+                        {
+                            "entityId": null,
+                            "value": "CHIPS and Science Act",
+                            "classification": "Concept"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Analysts",
+                            "classification": "Person"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Taiwan",
+                            "classification": "Location"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "United States",
+                            "classification": "Location"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "China",
+                            "classification": "Location"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "South Korea",
+                            "classification": "Location"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Japan",
+                            "classification": "Location"
+                        }
+                    ],
+                    "statements": [
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The CHIPS and Science Act includes eligibility requirements and prohibitions that companies should consider when pursuing incentive funding to expand domestic semiconductor manufacturing.",
+                            "details": [
+                                "companies SHOULD CONSIDER CHIPS and Science Act"
+                            ],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "CHIPS and Science Act",
+                                        "classification": "Concept"
+                                    },
+                                    "predicate": {
+                                        "value": "INCLUDES"
+                                    },
+                                    "object": null,
+                                    "complement": "eligibility requirements"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "CHIPS and Science Act",
+                                        "classification": "Concept"
+                                    },
+                                    "predicate": {
+                                        "value": "INCLUDES"
+                                    },
+                                    "object": null,
+                                    "complement": "prohibitions"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Analysts are concerned that the CHIPS and Science Act does not address security issues, such as the Chinese government's heavy subsidies and state-sponsored cyber-espionage.",
+                            "details": [
+                                "Chinese government PROVIDES heavy subsidies",
+                                "Chinese government ENGAGES IN state-sponsored cyber-espionage"
+                            ],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Analysts",
+                                        "classification": "Person"
+                                    },
+                                    "predicate": {
+                                        "value": "ARE CONCERNED THAT"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "CHIPS and Science Act",
+                                        "classification": "Concept"
+                                    },
+                                    "complement": null
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "CHIPS and Science Act",
+                                        "classification": "Concept"
+                                    },
+                                    "predicate": {
+                                        "value": "DOES NOT ADDRESS"
+                                    },
+                                    "object": null,
+                                    "complement": "security issues"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Taiwan is the world's largest microchip manufacturer, producing 65% of the microchips used globally.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Taiwan",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "IS"
+                                    },
+                                    "object": null,
+                                    "complement": "world's largest microchip manufacturer"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Taiwan",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "PRODUCES"
+                                    },
+                                    "object": null,
+                                    "complement": "65% of microchips used globally"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The United States produces 10% of the world's microchips, and China produces 5%.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "United States",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "PRODUCES"
+                                    },
+                                    "object": null,
+                                    "complement": "10% of world's microchips"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "China",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "PRODUCES"
+                                    },
+                                    "object": null,
+                                    "complement": "5% of world's microchips"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "South Korea and Japan produce the remaining microchips not manufactured in Taiwan, the United States, or China.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "South Korea",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "PRODUCES"
+                                    },
+                                    "object": null,
+                                    "complement": "remaining microchips"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Japan",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "PRODUCES"
+                                    },
+                                    "object": null,
+                                    "complement": "remaining microchips"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Taiwan manufactures 90% of the world's advanced microchips.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Taiwan",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "MANUFACTURES"
+                                    },
+                                    "object": null,
+                                    "complement": "90% of world's advanced microchips"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The world's dependence on Taiwan's microchip manufacturing has protected Taiwan from potential invasion or trade sanctions from China.",
+                            "details": [
+                                "world DEPENDS ON Taiwan's microchip manufacturing"
+                            ],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Taiwan",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "PROTECTED FROM"
+                                    },
+                                    "object": null,
+                                    "complement": "potential invasion"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Taiwan",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "PROTECTED FROM"
+                                    },
+                                    "object": null,
+                                    "complement": "trade sanctions"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "China",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "COULD IMPOSE"
+                                    },
+                                    "object": null,
+                                    "complement": "potential invasion"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "China",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "COULD IMPOSE"
+                                    },
+                                    "object": null,
+                                    "complement": "trade sanctions"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "topicId": null,
+                    "chunkIds": [],
+                    "value": "Semiconductor Industry and National Security",
+                    "entities": [
+                        {
+                            "entityId": null,
+                            "value": "CHIPS and Science Act",
+                            "classification": "Concept"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Analysts",
+                            "classification": "Person"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Chinese government",
+                            "classification": "Organization"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Taiwan",
+                            "classification": "Location"
+                        }
+                    ],
+                    "statements": [
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Analysts are concerned that the CHIPS and Science Act does not address security issues, such as the Chinese government's heavy subsidies and state-sponsored cyber-espionage.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Analysts",
+                                        "classification": "Person"
+                                    },
+                                    "predicate": {
+                                        "value": "ARE CONCERNED THAT"
+                                    },
+                                    "object": {
+                                        "entityId": null,
+                                        "value": "CHIPS and Science Act",
+                                        "classification": "Concept"
+                                    },
+                                    "complement": null
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "CHIPS and Science Act",
+                                        "classification": "Concept"
+                                    },
+                                    "predicate": {
+                                        "value": "DOES NOT ADDRESS"
+                                    },
+                                    "object": null,
+                                    "complement": "security issues"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Chinese government",
+                                        "classification": "Organization"
+                                    },
+                                    "predicate": {
+                                        "value": "PROVIDES"
+                                    },
+                                    "object": null,
+                                    "complement": "heavy subsidies"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Chinese government",
+                                        "classification": "Organization"
+                                    },
+                                    "predicate": {
+                                        "value": "ENGAGES IN"
+                                    },
+                                    "object": null,
+                                    "complement": "state-sponsored cyber-espionage"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The world's dependence on Taiwan's microchip manufacturing has protected Taiwan from potential invasion or trade sanctions from China.",
+                            "details": [
+                                "world DEPENDS ON Taiwan's microchip manufacturing",
+                                "China COULD IMPOSE potential invasion",
+                                "China COULD IMPOSE trade sanctions"
+                            ],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Taiwan",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "PROTECTED FROM"
+                                    },
+                                    "object": null,
+                                    "complement": "potential invasion"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Taiwan",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "PROTECTED FROM"
+                                    },
+                                    "object": null,
+                                    "complement": "trade sanctions"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "topicId": null,
+                    "chunkIds": [],
+                    "value": "Semiconductors and Microchips",
+                    "entities": [
+                        {
+                            "entityId": null,
+                            "value": "Taiwan",
+                            "classification": "Location"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "United States",
+                            "classification": "Location"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "China",
+                            "classification": "Location"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "South Korea",
+                            "classification": "Location"
+                        },
+                        {
+                            "entityId": null,
+                            "value": "Japan",
+                            "classification": "Location"
+                        }
+                    ],
+                    "statements": [
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Taiwan is the world's largest microchip manufacturer, producing 65% of the microchips used globally.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Taiwan",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "IS"
+                                    },
+                                    "object": null,
+                                    "complement": "world's largest microchip manufacturer"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Taiwan",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "PRODUCES"
+                                    },
+                                    "object": null,
+                                    "complement": "65% of microchips used globally"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "The United States produces 10% of the world's microchips, and China produces 5%.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "United States",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "PRODUCES"
+                                    },
+                                    "object": null,
+                                    "complement": "10% of world's microchips"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "China",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "PRODUCES"
+                                    },
+                                    "object": null,
+                                    "complement": "5% of world's microchips"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "South Korea and Japan produce the remaining microchips not manufactured in Taiwan, the United States, or China.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "South Korea",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "PRODUCES"
+                                    },
+                                    "object": null,
+                                    "complement": "remaining microchips"
+                                },
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Japan",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "PRODUCES"
+                                    },
+                                    "object": null,
+                                    "complement": "remaining microchips"
+                                }
+                            ]
+                        },
+                        {
+                            "statementId": null,
+                            "topicId": null,
+                            "chunkId": null,
+                            "value": "Taiwan manufactures 90% of the world's advanced microchips.",
+                            "details": [],
+                            "facts": [
+                                {
+                                    "factId": null,
+                                    "statementId": null,
+                                    "subject": {
+                                        "entityId": null,
+                                        "value": "Taiwan",
+                                        "classification": "Location"
+                                    },
+                                    "predicate": {
+                                        "value": "MANUFACTURES"
+                                    },
+                                    "object": null,
+                                    "complement": "90% of world's advanced microchips"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "excluded_embed_metadata_keys": [],
+    "excluded_llm_metadata_keys": [],
+    "relationships": {
+        "1": {
+            "node_id": "aws::1ee8ef1e:012c",
+            "node_type": "4",
+            "metadata": {
+                "page_label": "2",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 2,
+                "total_pages": 4
+            },
+            "hash": "4b88e5135fb542543a3de71432085d851dd45463f3ffd7f7e653390e9adb68e1",
+            "class_name": "RelatedNodeInfo"
+        },
+        "2": {
+            "node_id": "aws::1ee8ef1e:012c:b778490e",
+            "node_type": "1",
+            "metadata": {
+                "page_label": "2",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 2,
+                "total_pages": 4
+            },
+            "hash": "76e79e6205f8fbbda755bc50157e85bd1f2ecedf165c87ec173939f2719d53ea",
+            "class_name": "RelatedNodeInfo"
+        },
+        "3": {
+            "node_id": "aws::1ee8ef1e:012c:1d8126b4",
+            "node_type": "1",
+            "metadata": {
+                "page_label": "2",
+                "file_name": "New-InfoFlash.Sample.pdf",
+                "source": "data/pdfs/New-InfoFlash.Sample.pdf",
+                "page_number": 2,
+                "total_pages": 4
+            },
+            "hash": "e1b5970cfa34620bf5e587cfda1a9719e6b375a22bc20a0a3392032902180d92",
+            "class_name": "RelatedNodeInfo"
+        }
+    },
+    "metadata_template": "{key}: {value}",
+    "metadata_separator": "\n",
+    "text": "It is based on eligibility requirements and prohibitions that companies should take\ninto account as they consider pursuing incentive funding to expand domestic manufacturing in the\nsemiconductor supply chain (King&Spalding, 2022). Analysts are concerned that the act does not\naddress security issues, such as the Chinese government\u2019s heavy subsidies as well as state-sponsored\ncyber-espionage (Lohman, 2022).\nTAIWAN'S SUPREMACY IN MANUFACTURING MICROCHIPS\nTaiwan is the world\u2019s largest microchip manufacturer, manufacturing 65 percent of the microchips\nused in everything from smartphones to missiles. This is compared to the US at 10 percent and China\nat 5 percent, whereas South Korea and Japan produce the rest. \nMore importantly, Taiwan manufactures 90 percent of the world\u2019s advanced microchips. However,\nthe world\u2019s dependence on Taiwan\u2019s chips has protected itself from a potential invasion or trade\nsanctions from China (Zeiger, 2022).",
+    "mimetype": "text/plain",
+    "start_char_idx": 1499,
+    "end_char_idx": 2442,
+    "metadata_seperator": "\n",
+    "text_template": "[Excerpt from document]\n{metadata_str}\nExcerpt:\n-----\n{content}\n-----\n",
+    "class_name": "TextNode"
+}
